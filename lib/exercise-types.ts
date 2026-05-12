@@ -83,6 +83,17 @@ export type ExerciseImage = {
   kind: "placeholder";
 };
 
+export type ExerciseTeachingDiagram = {
+  id: string;
+  title: string;
+  description: string;
+  poseNotes: string[];
+  annotationLabels: string[];
+  kind: "placeholder" | "uploaded";
+  imageSrc?: string;
+  imageAlt?: string;
+};
+
 export type ExerciseRecord = {
   display: {
     id: string;
@@ -135,6 +146,7 @@ export type ExerciseRecord = {
   };
   media: {
     images: ExerciseImage[];
+    teachingDiagram?: ExerciseTeachingDiagram;
   };
   futureExpansion: {
     instructorNotes?: string;

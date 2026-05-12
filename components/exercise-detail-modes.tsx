@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { AnatomyTeachingPanel } from "@/components/anatomy-teaching-panel";
 import { ExerciseImageGallery } from "@/components/exercise-image-gallery";
+import { ExerciseTeachingDiagram } from "@/components/exercise-teaching-diagram";
 import { PrototypeLabel } from "@/components/prototype-label";
 import { ExerciseRecord } from "@/lib/exercise-types";
 
@@ -69,6 +70,8 @@ export function ExerciseDetailModes({ exercise }: ExerciseDetailModesProps) {
 function InstructorDetail({ exercise }: ExerciseDetailModesProps) {
   return (
     <>
+      <ExerciseTeachingDiagram exercise={exercise} />
+
       <section className="info-card">
         <h2>Anatomy</h2>
         <AnatomyTeachingPanel anatomy={exercise.anatomy} />

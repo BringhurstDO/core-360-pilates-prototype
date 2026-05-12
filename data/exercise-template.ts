@@ -93,7 +93,22 @@ export const exerciseTemplate: ExerciseRecord = {
         alt: "Describe the finish image",
         kind: "placeholder"
       }
-    ]
+    ],
+    teachingDiagram: {
+      id: "your-exercise-teaching-plate",
+      title: "Teaching Diagram",
+      description:
+        "Optional Stacey-style teaching plate notes. Use this for pose, apparatus, arrows, and annotation labels that should appear with the exercise.",
+      poseNotes: [
+        "Body position or apparatus setup note",
+        "Movement direction or spring/load note"
+      ],
+      annotationLabels: [
+        "Primary anatomy label",
+        "Cue or compensation label"
+      ],
+      kind: "placeholder"
+    }
   },
   futureExpansion: {
     instructorNotes: "Optional private note for internal teaching context.",

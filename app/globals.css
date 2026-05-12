@@ -490,6 +490,76 @@ h3 {
   font-weight: 700;
 }
 
+.teaching-diagram-card {
+  display: grid;
+  gap: 1rem;
+}
+
+.teaching-diagram-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.teaching-diagram-header h2 {
+  margin-bottom: 0.45rem;
+}
+
+.teaching-diagram-image,
+.teaching-plate-svg {
+  width: 100%;
+  border-radius: 22px;
+  border: 1px solid var(--border);
+  background: var(--surface-strong);
+}
+
+.teaching-plate-svg {
+  display: block;
+  min-height: 260px;
+}
+
+.teaching-plate-label rect {
+  fill: rgba(255, 252, 247, 0.94);
+  stroke: rgba(96, 79, 55, 0.22);
+}
+
+.teaching-plate-label text,
+.teaching-plate-title,
+.teaching-plate-subtitle {
+  fill: var(--text);
+  font-family: var(--font-sans);
+}
+
+.teaching-plate-label text {
+  font-size: 12px;
+  font-weight: 700;
+  text-anchor: middle;
+}
+
+.teaching-plate-title {
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.teaching-plate-subtitle {
+  fill: var(--muted);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.teaching-diagram-notes {
+  display: grid;
+  grid-template-columns: 1.35fr 1fr;
+  gap: 1rem;
+}
+
+.teaching-label-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
 .anatomy-shell {
   display: grid;
   gap: 1rem;
@@ -735,7 +805,8 @@ h3 {
 
   .detail-grid,
   .two-column-sections,
-  .prototype-grid {
+  .prototype-grid,
+  .teaching-diagram-notes {
     grid-template-columns: 1fr;
   }
 
@@ -782,11 +853,13 @@ h3 {
   }
 
   .detail-mode-header,
-  .mode-toggle {
+  .mode-toggle,
+  .teaching-diagram-header {
     width: 100%;
   }
 
-  .detail-mode-header {
+  .detail-mode-header,
+  .teaching-diagram-header {
     flex-direction: column;
   }
 
