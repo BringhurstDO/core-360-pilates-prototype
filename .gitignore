@@ -1,0 +1,14 @@
+.next/
+node_modules/
+
+# Local logs and editor files
+*.log
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env*.local
+
+# Vercel local metadata
+.vercel/
