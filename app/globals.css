@@ -661,8 +661,8 @@ h3 {
 }
 
 .anatomy-base-image {
-  opacity: 0.82;
-  filter: saturate(0.86) contrast(0.96);
+  opacity: 0.9;
+  filter: saturate(0.92) contrast(0.98);
 }
 
 .anatomy-source-note {
@@ -682,6 +682,7 @@ h3 {
 .anatomy-region {
   cursor: pointer;
   mix-blend-mode: multiply;
+  paint-order: stroke fill;
   transition: opacity 140ms ease, filter 140ms ease, transform 140ms ease;
 }
 
