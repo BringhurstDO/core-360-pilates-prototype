@@ -679,23 +679,29 @@ h3 {
   text-underline-offset: 0.18em;
 }
 
-.anatomy-region {
+.anatomy-region-group {
   cursor: pointer;
+}
+
+.anatomy-region {
   mix-blend-mode: multiply;
   paint-order: stroke fill;
   transition: opacity 140ms ease, filter 140ms ease, transform 140ms ease;
 }
 
-.anatomy-region.is-emphasized {
+.anatomy-region-group.is-emphasized .anatomy-region {
   filter: drop-shadow(0 0 3px rgba(34, 27, 20, 0.28));
 }
 
-.anatomy-region.is-selected {
+.anatomy-region-group.is-selected .anatomy-region {
   filter: drop-shadow(0 0 4px rgba(31, 92, 87, 0.35));
 }
 
-.anatomy-region:focus-visible {
+.anatomy-region-group:focus-visible {
   outline: none;
+}
+
+.anatomy-region-group:focus-visible .anatomy-region {
   filter: drop-shadow(0 0 0 rgba(0, 0, 0, 0))
     drop-shadow(0 0 8px rgba(31, 92, 87, 0.45));
 }

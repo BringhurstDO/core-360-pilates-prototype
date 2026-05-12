@@ -359,35 +359,29 @@ function MuscleLayer({
 
   return (
     <>
-      {muscles.flatMap((muscleId) => {
+      {muscles.map((muscleId) => {
         const paths = regionMap[muscleId][view] ?? [];
+        const isEmphasized = emphasizedMuscle === muscleId;
+        const isSelected = selectedMuscle === muscleId;
 
-        return paths.map((path, index) => (
-          <path
-            key={`${role}-${view}-${muscleId}-${index}`}
-            d={path}
-            fill={style.fill}
-            stroke={style.stroke}
-            strokeWidth={
-              emphasizedMuscle === muscleId
-                ? role === "stabilizer"
-                  ? 2.2
-                  : 1.7
-                : role === "stabilizer"
-                  ? 1.2
-                  : 0.9
-            }
-            strokeDasharray={role === "stabilizer" ? "2.5 2" : undefined}
-            opacity={
-              emphasizedMuscle && emphasizedMuscle !== muscleId ? 0.22 : 1
-            }
-            className={`${style.className} anatomy-region${
-              emphasizedMuscle === muscleId ? " is-emphasized" : ""
-            }${selectedMuscle === muscleId ? " is-selected" : ""}`}
+        if (paths.length === 0) {
+          return null;
+        }
+
+        return (
+          <g
+            key={`${role}-${view}-${muscleId}`}
+            id={`anatomy-${view}-${muscleId}-${role}`}
+            data-muscle-id={muscleId}
+            data-muscle-role={role}
+            data-anatomy-view={view}
+            className={`${style.className} anatomy-region-group${
+              isEmphasized ? " is-emphasized" : ""
+            }${isSelected ? " is-selected" : ""}`}
             role="button"
             tabIndex={0}
             aria-label={`${formatMuscleGroup(muscleId)} (${style.label}) on ${view} view`}
-            aria-pressed={selectedMuscle === muscleId}
+            aria-pressed={isSelected}
             onMouseEnter={() => onMuscleEnter?.(muscleId)}
             onMouseLeave={() => onMuscleLeave?.()}
             onFocus={() => onMuscleEnter?.(muscleId)}
@@ -403,8 +397,28 @@ function MuscleLayer({
             <title>
               {formatMuscleGroup(muscleId)} - {style.label}
             </title>
-          </path>
-        ));
+            {paths.map((path, index) => (
+              <path
+                key={`${role}-${view}-${muscleId}-${index}`}
+                d={path}
+                fill={style.fill}
+                stroke={style.stroke}
+                strokeWidth={
+                  isEmphasized
+                    ? role === "stabilizer"
+                      ? 2.2
+                      : 1.7
+                    : role === "stabilizer"
+                      ? 1.2
+                      : 0.9
+                }
+                strokeDasharray={role === "stabilizer" ? "2.5 2" : undefined}
+                opacity={emphasizedMuscle && !isEmphasized ? 0.22 : 1}
+                className="anatomy-region"
+              />
+            ))}
+          </g>
+        );
       })}
     </>
   );
