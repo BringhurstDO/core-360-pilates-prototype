@@ -3,7 +3,8 @@ export const APPARATUS = [
   "Reformer",
   "Cadillac",
   "Chair",
-  "Barrel"
+  "Barrel",
+  "Barre"
 ] as const;
 
 export const LEVELS = ["Beginner", "Intermediate", "Advanced"] as const;
@@ -14,16 +15,19 @@ export const BODY_POSITIONS = [
   "Seated",
   "Kneeling",
   "Standing",
-  "Side-lying"
+  "Side Facing"
 ] as const;
 
 export const MOVEMENT_CATEGORIES = [
-  "Core Articulation",
-  "Hip Stability",
-  "Spinal Extension",
-  "Upper Body Support",
-  "Lateral Flexion",
-  "Rotation"
+  "Breathing",
+  "Pelvic Tilts",
+  "Forward Flexion",
+  "Bridging",
+  "Upper Front Body",
+  "Upper Back Body",
+  "Planking",
+  "Side-Lying",
+  "Lower Body"
 ] as const;
 
 export const MUSCLE_GROUPS = [

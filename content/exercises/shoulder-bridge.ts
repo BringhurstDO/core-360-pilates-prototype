@@ -13,7 +13,7 @@ export const shoulderBridge: ExerciseRecord = {
     apparatus: "Mat",
     level: "Beginner",
     bodyPosition: "Supine",
-    movementCategory: "Hip Stability",
+    movementCategory: "Bridging",
     muscleGroups: ["glutes", "hamstrings", "abdominals"]
   },
   anatomy: {

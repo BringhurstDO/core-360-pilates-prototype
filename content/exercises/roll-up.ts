@@ -13,7 +13,7 @@ export const rollUp: ExerciseRecord = {
     apparatus: "Mat",
     level: "Intermediate",
     bodyPosition: "Supine",
-    movementCategory: "Core Articulation",
+    movementCategory: "Forward Flexion",
     muscleGroups: ["abdominals", "obliques", "hamstrings"]
   },
   anatomy: {

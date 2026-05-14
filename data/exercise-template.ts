@@ -12,7 +12,7 @@ export const exerciseTemplate: ExerciseRecord = {
     apparatus: "Mat",
     level: "Beginner",
     bodyPosition: "Supine",
-    movementCategory: "Core Articulation",
+    movementCategory: "Breathing",
     muscleGroups: ["abdominals"]
   },
   anatomy: {

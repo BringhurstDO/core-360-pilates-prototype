@@ -13,7 +13,7 @@ export const hundred: ExerciseRecord = {
     apparatus: "Mat",
     level: "Beginner",
     bodyPosition: "Supine",
-    movementCategory: "Core Articulation",
+    movementCategory: "Breathing",
     muscleGroups: ["abdominals", "hip-flexors", "shoulder-stabilizers"]
   },
   anatomy: {

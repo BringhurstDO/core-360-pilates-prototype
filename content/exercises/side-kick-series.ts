@@ -6,14 +6,14 @@ export const sideKickSeries: ExerciseRecord = {
     slug: "side-kick-series",
     name: "Side Kick Series",
     summary:
-      "Side-lying stability work for lateral line organization and hip dissociation.",
+      "Side-facing stability work for lateral line organization and hip dissociation.",
     audienceMode: "both"
   },
   classification: {
     apparatus: "Mat",
     level: "Intermediate",
-    bodyPosition: "Side-lying",
-    movementCategory: "Hip Stability",
+    bodyPosition: "Side Facing",
+    movementCategory: "Side-Lying",
     muscleGroups: ["glutes", "obliques", "hip-flexors"]
   },
   anatomy: {
@@ -33,7 +33,7 @@ export const sideKickSeries: ExerciseRecord = {
   },
   instructorEducation: {
     executionSteps: [
-      "Set up in one long side-lying line with the lower waist lifted.",
+      "Set up in one long side-facing line with the lower waist lifted.",
       "Sweep the top leg forward with a small pulse while keeping the pelvis stacked.",
       "Reach the leg long to the back without rolling the torso.",
       "Repeat smoothly before layering in circles or series variations."

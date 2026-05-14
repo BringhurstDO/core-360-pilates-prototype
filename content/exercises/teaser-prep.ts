@@ -13,7 +13,7 @@ export const teaserPrep: ExerciseRecord = {
     apparatus: "Mat",
     level: "Advanced",
     bodyPosition: "Supine",
-    movementCategory: "Core Articulation",
+    movementCategory: "Forward Flexion",
     muscleGroups: ["abdominals", "obliques", "hip-flexors"]
   },
   anatomy: {

@@ -13,7 +13,7 @@ export const mermaid: ExerciseRecord = {
     apparatus: "Chair",
     level: "Beginner",
     bodyPosition: "Seated",
-    movementCategory: "Lateral Flexion",
+    movementCategory: "Side-Lying",
     muscleGroups: ["obliques", "lats", "shoulder-stabilizers"]
   },
   anatomy: {

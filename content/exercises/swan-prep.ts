@@ -13,7 +13,7 @@ export const swanPrep: ExerciseRecord = {
     apparatus: "Mat",
     level: "Beginner",
     bodyPosition: "Prone",
-    movementCategory: "Spinal Extension",
+    movementCategory: "Upper Back Body",
     muscleGroups: ["spinal-erectors", "glutes", "triceps"]
   },
   anatomy: {

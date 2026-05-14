@@ -13,7 +13,7 @@ export const elephant: ExerciseRecord = {
     apparatus: "Reformer",
     level: "Intermediate",
     bodyPosition: "Standing",
-    movementCategory: "Upper Body Support",
+    movementCategory: "Planking",
     muscleGroups: ["abdominals", "hamstrings", "shoulder-stabilizers"]
   },
   anatomy: {
