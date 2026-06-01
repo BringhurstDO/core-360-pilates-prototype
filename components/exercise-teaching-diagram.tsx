@@ -12,10 +12,13 @@ type ExerciseTeachingDiagramProps = {
 export function ExerciseTeachingDiagram({
   exercise
 }: ExerciseTeachingDiagramProps) {
-  const diagram = exercise.media.teachingDiagram;
-  const primaryLabels = exercise.anatomy.overlay.primary
+  const diagram = exercise.media?.teachingDiagram;
+  const primaryMuscles =
+    exercise.anatomy.overlay?.primary ?? exercise.anatomy.primaryMuscleIds ?? [];
+  const primaryLabels = primaryMuscles
     .slice(0, 3)
     .map((muscle) => formatMuscleGroup(muscle));
+  const equipment = exercise.classification.equipment.join(", ");
 
   return (
     <section className="info-card teaching-diagram-card">
@@ -25,7 +28,7 @@ export function ExerciseTeachingDiagram({
           <h2>{diagram?.title ?? "Exercise-Specific Teaching Diagram"}</h2>
           <p className="detail-summary">
             {diagram?.description ??
-              "Placeholder for Stacey-style movement diagrams that combine body position, apparatus context, cue arrows, and anatomy emphasis."}
+              "Placeholder for Stacey-style movement diagrams that combine body position, equipment context, cue arrows, and anatomy emphasis."}
           </p>
         </div>
         <PrototypeLabel>Diagram placeholder</PrototypeLabel>
@@ -40,9 +43,9 @@ export function ExerciseTeachingDiagram({
       ) : (
         <TeachingPlateSvg
           exerciseName={exercise.display.name}
-          apparatus={exercise.classification.apparatus}
+          equipment={equipment}
           bodyPosition={exercise.classification.bodyPosition}
-          primaryMuscles={exercise.anatomy.overlay.primary}
+          primaryMuscles={primaryMuscles}
         />
       )}
 
@@ -52,7 +55,7 @@ export function ExerciseTeachingDiagram({
           <ul className="instruction-list unordered">
             {(diagram?.poseNotes ?? [
               `${exercise.classification.bodyPosition} setup and exercise shape`,
-              `${exercise.classification.apparatus} context or support surface`,
+              `${equipment} context or support surface`,
               "Direction of effort, support, and common compensation points"
             ]).map((note) => (
               <li key={note}>{note}</li>
@@ -80,14 +83,14 @@ export function ExerciseTeachingDiagram({
 
 type TeachingPlateSvgProps = {
   exerciseName: string;
-  apparatus: string;
+  equipment: string;
   bodyPosition: string;
   primaryMuscles: MuscleGroupId[];
 };
 
 function TeachingPlateSvg({
   exerciseName,
-  apparatus,
+  equipment,
   bodyPosition,
   primaryMuscles
 }: TeachingPlateSvgProps) {
@@ -186,7 +189,7 @@ function TeachingPlateSvg({
       <g className="teaching-plate-label">
         <path d="M140 258 L104 304" stroke="#5f5143" />
         <rect x="58" y="296" width="178" height="38" rx="14" />
-        <text x="147" y="320">{apparatus} context</text>
+        <text x="147" y="320">{equipment} context</text>
       </g>
 
       <text className="teaching-plate-title" x="40" y="54">

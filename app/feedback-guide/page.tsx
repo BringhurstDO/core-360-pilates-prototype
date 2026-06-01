@@ -27,6 +27,20 @@ export default function FeedbackGuidePage() {
 
       <section className="prototype-grid">
         <article className="info-card">
+          <h2>Manual Content Review</h2>
+          <p className="detail-summary">
+            For Core 360 content accuracy, go to the Exercise Library, use the
+            Source status filter, select Core 360 Manual, and open exercises
+            marked Needs Review. Answer the Review Questions on each detail page
+            before more manual categories are imported.
+          </p>
+          <p className="detail-summary">
+            Prototype/sample exercises are only for structure testing and should
+            not be reviewed for Core 360 content accuracy.
+          </p>
+        </article>
+
+        <article className="info-card">
           <h2>Exercise Page Layout</h2>
           <p className="detail-summary">
             Does the page feel easy to scan? Are the most important teaching
@@ -54,8 +68,9 @@ export default function FeedbackGuidePage() {
         <article className="info-card">
           <h2>Filter Categories</h2>
           <p className="detail-summary">
-            Are apparatus, body position, level, movement category, muscle
-            group, and audience mode the right starting filters?
+            Are equipment, body position, level, Core 360 movement category,
+            movement compass, programming wheel, muscle group, and audience mode
+            the right starting filters?
           </p>
         </article>
 

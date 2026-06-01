@@ -2,6 +2,15 @@ import { AudienceMode, ExerciseRecord } from "@/lib/exercise-types";
 import { elephant } from "@/content/exercises/elephant";
 import { hundred } from "@/content/exercises/hundred";
 import { mermaid } from "@/content/exercises/mermaid";
+import { manualBirdDog } from "@/content/exercises/manual/bird-dog";
+import { manualChestLift } from "@/content/exercises/manual/chest-lift";
+import { manualLateralBreathing } from "@/content/exercises/manual/lateral-breathing";
+import { manualNeutralPelvisHold } from "@/content/exercises/manual/neutral-pelvis-hold";
+import { manualPelvicCurl } from "@/content/exercises/manual/pelvic-curl";
+import { manualPelvicTilt } from "@/content/exercises/manual/pelvic-tilt";
+import { manualRainbow } from "@/content/exercises/manual/rainbow";
+import { manualTabletopHold } from "@/content/exercises/manual/tabletop-hold";
+import { manualToeTaps } from "@/content/exercises/manual/toe-taps";
 import { rollUp } from "@/content/exercises/roll-up";
 import { shoulderBridge } from "@/content/exercises/shoulder-bridge";
 import { sideKickSeries } from "@/content/exercises/side-kick-series";
@@ -16,7 +25,16 @@ const authoredExercises: ExerciseRecord[] = [
   sideKickSeries,
   elephant,
   mermaid,
-  teaserPrep
+  teaserPrep,
+  manualLateralBreathing,
+  manualPelvicTilt,
+  manualNeutralPelvisHold,
+  manualToeTaps,
+  manualTabletopHold,
+  manualChestLift,
+  manualPelvicCurl,
+  manualRainbow,
+  manualBirdDog
 ];
 
 type ValidationIssue = {
@@ -31,8 +49,8 @@ function validateExercises(exercises: ExerciseRecord[]) {
   for (const exercise of exercises) {
     const name = exercise.display.name.trim();
     const slug = exercise.display.slug.trim();
-    const primaryMuscles = exercise.anatomy.primaryMuscles.filter(Boolean);
-    const images = exercise.media.images;
+    const primaryMuscles = exercise.anatomy.primaryMusclesText.trim();
+    const sourceName = exercise.source.originalName.trim();
 
     if (!slug) {
       issues.push({
@@ -58,19 +76,30 @@ function validateExercises(exercises: ExerciseRecord[]) {
       seenSlugs.add(slug);
     }
 
-    if (primaryMuscles.length === 0) {
+    if (!sourceName) {
+      issues.push({
+        level: "error",
+        message: `Missing source originalName for "${name || slug || exercise.display.id}".`
+      });
+    }
+
+    if (!primaryMuscles) {
       issues.push({
         level: "error",
         message: `Missing primary muscles for "${name || slug || exercise.display.id}".`
       });
     }
 
-    if (images.length === 0) {
+    if (!exercise.teaching.setup.trim() || !exercise.teaching.execution.trim()) {
       issues.push({
         level: "error",
-        message: `Missing media images for "${name || slug || exercise.display.id}".`
+        message: `Missing teaching setup or execution for "${name || slug || exercise.display.id}".`
       });
-    } else if (!images.some((image) => image.kind === "placeholder")) {
+    }
+
+    const images = exercise.media?.images ?? [];
+
+    if (images.length > 0 && !images.some((image) => image.kind === "placeholder")) {
       issues.push({
         level: "warning",
         message: `No placeholder image found for "${name || slug || exercise.display.id}".`
@@ -105,12 +134,12 @@ export function getAllExerciseSlugs() {
 
 export function getExercisesByAudienceMode(mode: AudienceMode) {
   if (mode === "both") {
-    return exercises.filter((exercise) => exercise.display.audienceMode === "both");
+    return exercises.filter((exercise) => (exercise.display.audienceMode ?? "both") === "both");
   }
 
   return exercises.filter(
     (exercise) =>
       exercise.display.audienceMode === mode ||
-      exercise.display.audienceMode === "both"
+      (exercise.display.audienceMode ?? "both") === "both"
   );
 }

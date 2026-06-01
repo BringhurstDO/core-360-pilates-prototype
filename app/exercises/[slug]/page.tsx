@@ -1,11 +1,15 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ExerciseDetailModes } from "@/components/exercise-detail-modes";
-import { PrototypeLabel } from "@/components/prototype-label";
+import { ExerciseSourceBadges } from "@/components/exercise-source-badges";
 import {
   getAllExerciseSlugs,
   getExerciseBySlug
 } from "@/content/exercises";
+import {
+  formatSourceStatus,
+  getSourceFidelityNote
+} from "@/lib/exercise-source";
 
 type ExerciseDetailPageProps = {
   params: Promise<{
@@ -27,6 +31,9 @@ export default async function ExerciseDetailPage({
     notFound();
   }
 
+  const equipment = exercise.classification.equipment.join(", ");
+  const audienceMode = exercise.display.audienceMode ?? "both";
+
   return (
     <main className="page-shell">
       <div className="page-header">
@@ -34,19 +41,18 @@ export default async function ExerciseDetailPage({
           Back to library
         </Link>
         <p className="eyebrow">Exercise Detail</p>
-        <div className="label-row">
-          <PrototypeLabel>Sample content</PrototypeLabel>
-          <PrototypeLabel>Simplified anatomy</PrototypeLabel>
-        </div>
+        <ExerciseSourceBadges exercise={exercise} />
         <h1>{exercise.display.name}</h1>
         <div className="chip-row">
-          <span className="chip">{exercise.classification.apparatus}</span>
+          <span className="chip">{equipment}</span>
           <span className="chip">{exercise.classification.level}</span>
           <span className="chip">{exercise.classification.bodyPosition}</span>
           <span className="chip">{exercise.classification.movementCategory}</span>
-          <span className="chip">{exercise.display.audienceMode}</span>
+          <span className="chip">{audienceMode}</span>
         </div>
-        <p className="detail-summary">{exercise.display.summary}</p>
+        <p className="detail-summary">
+          {exercise.display.summary ?? exercise.teaching.execution}
+        </p>
       </div>
 
       <section className="detail-grid">
@@ -56,8 +62,8 @@ export default async function ExerciseDetailPage({
           <section className="info-card sticky-card">
             <h2>Classification</h2>
             <div className="taxonomy-block">
-              <h3>Apparatus</h3>
-              <p>{exercise.classification.apparatus}</p>
+              <h3>Equipment</h3>
+              <p>{equipment}</p>
             </div>
             <div className="taxonomy-block">
               <h3>Level</h3>
@@ -71,19 +77,58 @@ export default async function ExerciseDetailPage({
               <h3>Movement category</h3>
               <p>{exercise.classification.movementCategory}</p>
             </div>
+            <div className="taxonomy-block">
+              <h3>Movement compass</h3>
+              <p>{exercise.classification.movementCompass.join(", ")}</p>
+            </div>
+            <div className="taxonomy-block">
+              <h3>Programming wheel</h3>
+              <p>{exercise.classification.programmingWheelSlot ?? "Not specified"}</p>
+            </div>
+            <div className="taxonomy-block">
+              <h3>Support type</h3>
+              <p>{exercise.classification.supportType?.join(", ") ?? "Not specified"}</p>
+            </div>
           </section>
 
           <section className="info-card">
-            <h2>Prototype Notes</h2>
+            <h2>Source Review</h2>
             <div className="taxonomy-block">
-              <h3>Review focus</h3>
-              <p>Use this page to review structure, content split, and teaching flow.</p>
+              <h3>Manual/source name</h3>
+              <p>{exercise.source.manual}</p>
             </div>
             <div className="taxonomy-block">
-              <h3>Current limits</h3>
-              <p>Images are placeholders, anatomy is simplified, and content is sample copy.</p>
+              <h3>Source page</h3>
+              <p>{exercise.source.page ? `p. ${exercise.source.page}` : "Not specified"}</p>
+            </div>
+            <div className="taxonomy-block">
+              <h3>Source section</h3>
+              <p>{exercise.source.section}</p>
+            </div>
+            <div className="taxonomy-block">
+              <h3>Original exercise name</h3>
+              <p>{exercise.source.originalName}</p>
+            </div>
+            <div className="taxonomy-block">
+              <h3>Source status</h3>
+              <p>{formatSourceStatus(exercise.source.sourceStatus)}</p>
+            </div>
+            <div className="taxonomy-block">
+              <h3>Manual text vs app taxonomy</h3>
+              <p>{getSourceFidelityNote(exercise)}</p>
             </div>
           </section>
+
+          {exercise.source.reviewQuestions?.length ? (
+            <section className="info-card review-card">
+              <h2>Review Questions</h2>
+              <ul className="instruction-list unordered">
+                {exercise.source.reviewQuestions.map((question) => (
+                  <li key={question}>{question}</li>
+                ))}
+              </ul>
+            </section>
+          ) : null}
         </aside>
       </section>
     </main>

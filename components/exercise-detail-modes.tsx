@@ -56,7 +56,7 @@ export function ExerciseDetailModes({ exercise }: ExerciseDetailModesProps) {
         </div>
       </section>
 
-      <ExerciseImageGallery images={exercise.media.images} />
+      <ExerciseImageGallery images={exercise.media?.images} />
 
       {mode === "instructor" ? (
         <InstructorDetail exercise={exercise} />
@@ -68,6 +68,12 @@ export function ExerciseDetailModes({ exercise }: ExerciseDetailModesProps) {
 }
 
 function InstructorDetail({ exercise }: ExerciseDetailModesProps) {
+  const executionSteps = exercise.teaching.executionSteps?.length
+    ? exercise.teaching.executionSteps
+    : [exercise.teaching.execution];
+  const pairsWellWith = exercise.programming?.pairsWellWith ?? [];
+  const precautions = exercise.safety?.precautions ?? [];
+
   return (
     <>
       <ExerciseTeachingDiagram exercise={exercise} />
@@ -80,10 +86,14 @@ function InstructorDetail({ exercise }: ExerciseDetailModesProps) {
       <section className="info-card">
         <h2>Execution Details</h2>
         <ol className="instruction-list">
-          {exercise.instructorEducation.executionSteps.map((step) => (
+          {executionSteps.map((step) => (
             <li key={step}>{step}</li>
           ))}
         </ol>
+        <div className="taxonomy-block">
+          <h3>Breath pattern</h3>
+          <p>{exercise.teaching.breathPattern}</p>
+        </div>
       </section>
 
       <section className="info-card">
@@ -92,7 +102,7 @@ function InstructorDetail({ exercise }: ExerciseDetailModesProps) {
           <div>
             <h3>Teaching cues</h3>
             <ul className="instruction-list unordered">
-              {exercise.instructorEducation.teachingCues.map((cue) => (
+              {exercise.teaching.cues.map((cue) => (
                 <li key={cue}>{cue}</li>
               ))}
             </ul>
@@ -101,15 +111,19 @@ function InstructorDetail({ exercise }: ExerciseDetailModesProps) {
             <h3>Programming context</h3>
             <div className="taxonomy-block">
               <h3>Focus</h3>
-              <p>{exercise.instructorEducation.programming.focus}</p>
+              <p>{exercise.programming?.focus ?? "Not specified yet."}</p>
             </div>
             <div className="taxonomy-block">
               <h3>Use it when</h3>
-              <p>{exercise.instructorEducation.programming.useCase}</p>
+              <p>{exercise.programming?.useCase ?? "Not specified yet."}</p>
+            </div>
+            <div className="taxonomy-block">
+              <h3>Core 360 sequence</h3>
+              <p>{exercise.programming?.sequenceNotes ?? "Not specified yet."}</p>
             </div>
             <div className="taxonomy-block">
               <h3>Pairs well with</h3>
-              <p>{exercise.instructorEducation.programming.pairsWellWith.join(", ")}</p>
+              <p>{pairsWellWith.length ? pairsWellWith.join(", ") : "Not specified yet."}</p>
             </div>
           </div>
         </div>
@@ -118,7 +132,7 @@ function InstructorDetail({ exercise }: ExerciseDetailModesProps) {
       <section className="info-card">
         <h2>Common Mistakes</h2>
         <ul className="instruction-list unordered">
-          {exercise.instructorEducation.commonMistakes.map((mistake) => (
+          {exercise.teaching.commonMistakes.map((mistake) => (
             <li key={mistake}>{mistake}</li>
           ))}
         </ul>
@@ -130,16 +144,16 @@ function InstructorDetail({ exercise }: ExerciseDetailModesProps) {
           <div className="taxonomy-block">
             <h3>Progressions</h3>
             <ul className="instruction-list unordered">
-              {exercise.instructorEducation.progressions.map((progression) => (
+              {exercise.teaching.progressions.map((progression) => (
                 <li key={progression}>{progression}</li>
               ))}
             </ul>
           </div>
           <div className="taxonomy-block">
-            <h3>Regressions & modifications</h3>
+            <h3>Modifications</h3>
             <ul className="instruction-list unordered">
-              {exercise.clientSafety.regressions.map((regression) => (
-                <li key={regression}>{regression}</li>
+              {exercise.teaching.modifications.map((modification) => (
+                <li key={modification}>{modification}</li>
               ))}
             </ul>
           </div>
@@ -149,14 +163,18 @@ function InstructorDetail({ exercise }: ExerciseDetailModesProps) {
           <h2>Client Guidance Reference</h2>
           <div className="taxonomy-block">
             <h3>Entry guidance</h3>
-            <p>{exercise.clientSafety.entryGuidance}</p>
+            <p>{exercise.safety?.entryGuidance ?? "Not specified yet."}</p>
           </div>
           <div className="taxonomy-block">
             <h3>Precautions</h3>
             <ul className="instruction-list unordered">
-              {exercise.clientSafety.precautions.map((precaution) => (
-                <li key={precaution}>{precaution}</li>
-              ))}
+              {precautions.length > 0 ? (
+                precautions.map((precaution) => (
+                  <li key={precaution}>{precaution}</li>
+                ))
+              ) : (
+                <li>No specific precautions recorded yet.</li>
+              )}
             </ul>
           </div>
         </section>
@@ -166,17 +184,26 @@ function InstructorDetail({ exercise }: ExerciseDetailModesProps) {
 }
 
 function ClientDetail({ exercise }: ExerciseDetailModesProps) {
+  const clientSetup = exercise.clientContent?.setup ?? exercise.teaching.setup;
+  const simpleSteps = exercise.clientContent?.simpleSteps?.length
+    ? exercise.clientContent.simpleSteps
+    : exercise.teaching.executionSteps ?? [exercise.teaching.execution];
+  const helpfulAdjustments = exercise.clientContent?.helpfulAdjustments?.length
+    ? exercise.clientContent.helpfulAdjustments
+    : exercise.teaching.modifications;
+  const safetyNotes = exercise.clientContent?.safetyNotes ?? exercise.safety?.precautions ?? [];
+
   return (
     <>
       <section className="info-card">
         <h2>Setup</h2>
-        <p>{exercise.clientSafety.clientContent.setup}</p>
+        <p>{clientSetup}</p>
       </section>
 
       <section className="info-card">
         <h2>Simple Steps</h2>
         <ol className="instruction-list">
-          {exercise.clientSafety.clientContent.simpleSteps.map((step) => (
+          {simpleSteps.map((step) => (
             <li key={step}>{step}</li>
           ))}
         </ol>
@@ -187,18 +214,18 @@ function ClientDetail({ exercise }: ExerciseDetailModesProps) {
           <h2>How It Should Feel</h2>
           <div className="taxonomy-block">
             <h3>Where you should feel it</h3>
-            <p>{exercise.anatomy.whereYouShouldFeelIt}</p>
+            <p>{exercise.anatomy.whereYouShouldFeelIt ?? exercise.anatomy.primaryMusclesText}</p>
           </div>
           <div className="taxonomy-block">
             <h3>Where you should not feel it</h3>
-            <p>{exercise.anatomy.whereYouShouldNotFeelIt}</p>
+            <p>{exercise.anatomy.whereYouShouldNotFeelIt ?? "Not specified yet."}</p>
           </div>
         </section>
 
         <section className="info-card">
           <h2>Helpful Adjustments</h2>
           <ul className="instruction-list unordered">
-            {exercise.clientSafety.clientContent.helpfulAdjustments.map((item) => (
+            {helpfulAdjustments.map((item) => (
               <li key={item}>{item}</li>
             ))}
           </ul>
@@ -211,16 +238,20 @@ function ClientDetail({ exercise }: ExerciseDetailModesProps) {
           <div>
             <h3>Safety notes</h3>
             <ul className="instruction-list unordered">
-              {exercise.clientSafety.clientContent.safetyNotes.map((note) => (
-                <li key={note}>{note}</li>
-              ))}
+              {safetyNotes.length > 0 ? (
+                safetyNotes.map((note) => (
+                  <li key={note}>{note}</li>
+                ))
+              ) : (
+                <li>No specific safety notes recorded yet.</li>
+              )}
             </ul>
           </div>
           <div>
             <h3>Modifications</h3>
             <ul className="instruction-list unordered">
-              {exercise.clientSafety.regressions.map((regression) => (
-                <li key={regression}>{regression}</li>
+              {exercise.teaching.modifications.map((modification) => (
+                <li key={modification}>{modification}</li>
               ))}
             </ul>
           </div>

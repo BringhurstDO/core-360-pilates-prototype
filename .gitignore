@@ -12,3 +12,6 @@ Thumbs.db
 
 # Vercel local metadata
 .vercel/
+
+# Local source reference files
+Core360_Mat_Manual_Reference_Rebuilt.pdf

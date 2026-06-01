@@ -9,17 +9,31 @@ export const teaserPrep: ExerciseRecord = {
       "Controlled balance prep introducing teaser mechanics with smaller levers and clear spinal sequencing.",
     audienceMode: "instructor"
   },
+  source: {
+    manual: "Prototype sample content",
+    section: "Advanced mat preparation",
+    originalName: "Teaser Prep",
+    sourceStatus: "prototype-only"
+  },
   classification: {
-    apparatus: "Mat",
+    equipment: ["Mat"],
     level: "Advanced",
+    movementCategory: "Abdominals / Forward Flexion",
     bodyPosition: "Supine",
-    movementCategory: "Forward Flexion",
-    muscleGroups: ["abdominals", "obliques", "hip-flexors"]
+    movementCompass: ["Forward Flexion", "Core Stability", "Integration"],
+    programmingWheelSlot: "Supine",
+    laterality: "Bilateral",
+    supportType: ["Open Chain", "Balance"]
   },
   anatomy: {
-    primaryMuscles: ["Abdominals", "Obliques", "Hip flexors"],
-    secondaryMuscles: ["Quadriceps", "Adductors"],
-    stabilizers: ["Spinal extensors", "Scapular stabilizers"],
+    primaryMusclesText: "Abdominals, obliques, hip flexors",
+    secondaryMusclesText: "Quadriceps, adductors",
+    stabilizersText: "Spinal extensors, scapular stabilizers",
+    primaryMuscleIds: ["abdominals", "obliques", "hip-flexors"],
+    secondaryMuscleIds: ["quadriceps", "adductors"],
+    stabilizerMuscleIds: ["spinal-erectors", "shoulder-stabilizers"],
+    regions: ["Anterior Core", "Deep Core", "Posterior Chain"],
+    bodyScanFocus: ["Pelvis", "Rib cage", "Head and neck"],
     overlay: {
       primary: ["abdominals", "obliques", "hip-flexors"],
       secondary: ["quadriceps", "adductors"],
@@ -31,14 +45,13 @@ export const teaserPrep: ExerciseRecord = {
     whereYouShouldNotFeelIt:
       "Jolting in the low back, neck strain, or dominating hip-flexor gripping."
   },
-  instructorEducation: {
-    executionSteps: [
+  teaching: {
+    setup:
       "Start in tabletop with the trunk lightly curled and the arms reaching long.",
-      "Exhale to deepen the scoop and balance into a compact V shape.",
-      "Reach the chest through the arms while the legs stay buoyant.",
-      "Roll back down with the same controlled shape."
-    ],
-    teachingCues: [
+    execution:
+      "Exhale to deepen the scoop and balance into a compact V shape. Reach the chest through the arms while the legs stay buoyant, then roll back down with the same controlled shape.",
+    breathPattern: "Inhale to prepare. Exhale to lift and balance with abdominal support.",
+    cues: [
       "Think up and back at the same time.",
       "Keep the shape compact before making it bigger.",
       "Lift the waist behind the navel."
@@ -48,45 +61,53 @@ export const teaserPrep: ExerciseRecord = {
       "Collapsing into the chest at the top.",
       "Overgripping the quads."
     ],
+    modifications: [
+      "Keep one foot on the mat.",
+      "Practice only the roll-up to balance transition."
+    ],
     progressions: [
       "Extend the legs toward a fuller teaser shape.",
       "Add arm circles while maintaining the balance."
     ],
-    programming: {
-      focus: "Bridge foundational articulation into advanced balance control.",
-      useCase: "Late in class after adequate warm-up and sequencing.",
-      pairsWellWith: ["Roll Up", "Open Leg Rocker Prep", "Hip Circles"]
-    }
+    executionSteps: [
+      "Start in tabletop with the trunk lightly curled and the arms reaching long.",
+      "Exhale to deepen the scoop and balance into a compact V shape.",
+      "Reach the chest through the arms while the legs stay buoyant.",
+      "Roll back down with the same controlled shape."
+    ]
   },
-  clientSafety: {
+  programming: {
+    focus: "Bridge foundational articulation into advanced balance control.",
+    useCase: "Late in class after adequate warm-up and sequencing.",
+    sequenceNotes:
+      "Prototype advanced mat content retained as a future progression beyond the current manual inventory.",
+    pairsWellWith: ["Roll Up", "Open Leg Rocker Prep", "Hip Circles"]
+  },
+  safety: {
     entryGuidance:
       "Keep one foot down or stay in the transition phase until the balance shape stays compact.",
-    regressions: [
-      "One foot on the mat.",
-      "Practice only the roll-up to balance transition."
-    ],
     precautions: [
       "Avoid chasing a full V shape before trunk control is present.",
       "Pause if the neck or low back begins to take over."
+    ]
+  },
+  clientContent: {
+    setup:
+      "Start on your back with the knees bent in and the arms reaching long.",
+    simpleSteps: [
+      "Curl up and lift into a small balance shape.",
+      "Keep the legs close in if that feels more controlled.",
+      "Pause briefly, then roll back down slowly.",
+      "Focus on balance and smooth control rather than size."
     ],
-    clientContent: {
-      setup:
-        "Start on your back with the knees bent in and the arms reaching long.",
-      simpleSteps: [
-        "Curl up and lift into a small balance shape.",
-        "Keep the legs close in if that feels more controlled.",
-        "Pause briefly, then roll back down slowly.",
-        "Focus on balance and smooth control rather than size."
-      ],
-      helpfulAdjustments: [
-        "Keep one foot on the mat if the balance feels too intense.",
-        "Make the shape smaller if the hip flexors start taking over."
-      ],
-      safetyNotes: [
-        "Avoid forcing a big V position.",
-        "Stop if the neck or low back begins to strain."
-      ]
-    }
+    helpfulAdjustments: [
+      "Keep one foot on the mat if the balance feels too intense.",
+      "Make the shape smaller if the hip flexors start taking over."
+    ],
+    safetyNotes: [
+      "Avoid forcing a big V position.",
+      "Stop if the neck or low back begins to strain."
+    ]
   },
   media: {
     images: [
@@ -94,9 +115,5 @@ export const teaserPrep: ExerciseRecord = {
       { id: "teaser-2", label: "Balance", alt: "Teaser Prep balanced V shape", kind: "placeholder" },
       { id: "teaser-3", label: "Controlled lower", alt: "Teaser Prep lowering phase", kind: "placeholder" }
     ]
-  },
-  futureExpansion: {
-    flowTags: ["advanced-mat", "balance"],
-    anatomyLayerVersion: "basic"
   }
 };

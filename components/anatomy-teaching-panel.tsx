@@ -22,17 +22,22 @@ export function AnatomyTeachingPanel({ anatomy }: AnatomyTeachingPanelProps) {
   const [selectedMuscle, setSelectedMuscle] = useState<MuscleGroupId | null>(null);
 
   const emphasizedMuscle = hoveredMuscle ?? selectedMuscle;
+  const primaryMuscles = anatomy.overlay?.primary ?? anatomy.primaryMuscleIds ?? [];
+  const secondaryMuscles =
+    anatomy.overlay?.secondary ?? anatomy.secondaryMuscleIds ?? [];
+  const stabilizers =
+    anatomy.overlay?.stabilizers ?? anatomy.stabilizerMuscleIds ?? [];
 
   const activeRole = useMemo(
     () =>
       emphasizedMuscle
         ? getAnatomyRole(emphasizedMuscle, {
-            primaryMuscles: anatomy.overlay.primary,
-            secondaryMuscles: anatomy.overlay.secondary,
-            stabilizers: anatomy.overlay.stabilizers
+            primaryMuscles,
+            secondaryMuscles,
+            stabilizers
           })
         : null,
-    [anatomy.overlay.primary, anatomy.overlay.secondary, anatomy.overlay.stabilizers, emphasizedMuscle]
+    [emphasizedMuscle, primaryMuscles, secondaryMuscles, stabilizers]
   );
 
   function toggleMuscle(muscle: MuscleGroupId) {
@@ -47,10 +52,10 @@ export function AnatomyTeachingPanel({ anatomy }: AnatomyTeachingPanelProps) {
             <PrototypeLabel>Simplified anatomy</PrototypeLabel>
           </div>
           <AnatomyOverlay
-            primaryMuscles={anatomy.overlay.primary}
-            secondaryMuscles={anatomy.overlay.secondary}
-            stabilizers={anatomy.overlay.stabilizers}
-            viewMode={anatomy.overlay.preferredView}
+            primaryMuscles={primaryMuscles}
+            secondaryMuscles={secondaryMuscles}
+            stabilizers={stabilizers}
+            viewMode={anatomy.overlay?.preferredView}
             emphasizedMuscle={emphasizedMuscle}
             selectedMuscle={selectedMuscle}
             onMuscleEnter={setHoveredMuscle}
@@ -86,7 +91,7 @@ export function AnatomyTeachingPanel({ anatomy }: AnatomyTeachingPanelProps) {
           <AnatomyGroupList
             title="Primary muscle groups"
             role="primary"
-            muscles={anatomy.overlay.primary}
+            muscles={primaryMuscles}
             emphasizedMuscle={emphasizedMuscle}
             selectedMuscle={selectedMuscle}
             onEnter={setHoveredMuscle}
@@ -96,7 +101,7 @@ export function AnatomyTeachingPanel({ anatomy }: AnatomyTeachingPanelProps) {
           <AnatomyGroupList
             title="Secondary muscle groups"
             role="secondary"
-            muscles={anatomy.overlay.secondary}
+            muscles={secondaryMuscles}
             emphasizedMuscle={emphasizedMuscle}
             selectedMuscle={selectedMuscle}
             onEnter={setHoveredMuscle}
@@ -106,7 +111,7 @@ export function AnatomyTeachingPanel({ anatomy }: AnatomyTeachingPanelProps) {
           <AnatomyGroupList
             title="Stabilizer groups"
             role="stabilizer"
-            muscles={anatomy.overlay.stabilizers}
+            muscles={stabilizers}
             emphasizedMuscle={emphasizedMuscle}
             selectedMuscle={selectedMuscle}
             onEnter={setHoveredMuscle}
@@ -119,23 +124,31 @@ export function AnatomyTeachingPanel({ anatomy }: AnatomyTeachingPanelProps) {
       <div className="two-column-sections anatomy-notes-grid">
         <div className="taxonomy-block">
           <h3>Primary muscles</h3>
-          <p>{anatomy.primaryMuscles.join(", ")}</p>
+          <p>{anatomy.primaryMusclesText}</p>
         </div>
         <div className="taxonomy-block">
           <h3>Secondary muscles</h3>
-          <p>{anatomy.secondaryMuscles.join(", ")}</p>
+          <p>{anatomy.secondaryMusclesText ?? "Not specified in source."}</p>
         </div>
         <div className="taxonomy-block">
           <h3>Stabilizers</h3>
-          <p>{anatomy.stabilizers.join(", ")}</p>
+          <p>{anatomy.stabilizersText}</p>
+        </div>
+        <div className="taxonomy-block">
+          <h3>Core 360 anatomy regions</h3>
+          <p>{anatomy.regions.join(", ") || "Not specified."}</p>
+        </div>
+        <div className="taxonomy-block">
+          <h3>Body scan focus</h3>
+          <p>{anatomy.bodyScanFocus?.join(", ") ?? "Not specified."}</p>
         </div>
         <div className="taxonomy-block">
           <h3>Where you should feel it</h3>
-          <p>{anatomy.whereYouShouldFeelIt}</p>
+          <p>{anatomy.whereYouShouldFeelIt ?? "Not specified yet."}</p>
         </div>
         <div className="taxonomy-block">
           <h3>Where you should not feel it</h3>
-          <p>{anatomy.whereYouShouldNotFeelIt}</p>
+          <p>{anatomy.whereYouShouldNotFeelIt ?? "Not specified yet."}</p>
         </div>
       </div>
     </div>
