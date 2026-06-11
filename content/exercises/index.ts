@@ -1,12 +1,4 @@
 import { AudienceMode, ExerciseRecord } from "@/lib/exercise-types";
-import { elephant } from "@/content/exercises/elephant";
-import { hundred } from "@/content/exercises/hundred";
-import { mermaid } from "@/content/exercises/mermaid";
-import { rollUp } from "@/content/exercises/roll-up";
-import { shoulderBridge } from "@/content/exercises/shoulder-bridge";
-import { sideKickSeries } from "@/content/exercises/side-kick-series";
-import { swanPrep } from "@/content/exercises/swan-prep";
-import { teaserPrep } from "@/content/exercises/teaser-prep";
 import { manualLateralBreathing } from "@/content/exercises/manual/lateral-breathing";
 import { manualPelvicTilt } from "@/content/exercises/manual/pelvic-tilt";
 import { manualNeutralPelvisHold } from "@/content/exercises/manual/neutral-pelvis-hold";
@@ -87,14 +79,6 @@ import { manualStandingSideBend } from "@/content/exercises/manual/standing-side
 import { manualStandingBalanceReach } from "@/content/exercises/manual/standing-balance-reach";
 
 const authoredExercises: ExerciseRecord[] = [
-  hundred,
-  rollUp,
-  shoulderBridge,
-  swanPrep,
-  sideKickSeries,
-  elephant,
-  mermaid,
-  teaserPrep,
   manualLateralBreathing,
   manualPelvicTilt,
   manualNeutralPelvisHold,
