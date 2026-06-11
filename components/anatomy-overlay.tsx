@@ -61,6 +61,18 @@ const roleStyles: Record<
 };
 
 const regionMap: Record<MuscleGroupId, RegionDefinition> = {
+  "transversus-abdominis": {
+    front: [
+      "M91 117 C96 112 101 113 103 119 L102 163 C99 168 94 168 91 163 Z",
+      "M105 119 C107 113 113 112 118 117 L118 163 C115 168 109 168 106 163 Z"
+    ]
+  },
+  multifidus: {
+    back: [
+      "M303 91 C306 109 306 136 305 164 L304 207 C301 198 300 176 300 150 C300 124 301 102 303 91 Z",
+      "M308 91 C310 102 311 124 311 150 C311 176 310 198 307 207 L306 164 C305 136 305 109 308 91 Z"
+    ]
+  },
   abdominals: {
     front: [
       "M89 104 C94 100 101 99 103 104 L103 168 C99 174 92 172 89 165 Z",

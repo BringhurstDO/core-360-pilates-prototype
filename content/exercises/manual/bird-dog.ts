@@ -5,8 +5,7 @@ export const manualBirdDog: ExerciseRecord = {
     id: "manual-bird-dog",
     slug: "manual-bird-dog",
     name: "Bird Dog",
-    summary:
-      "Manual-source quadruped exercise for cross-body stability, posterior-chain activation, and scapular support.",
+    summary: "Manual-source quadruped / kneeling exercise from the quadruped / kneeling category.",
     audienceMode: "instructor"
   },
   source: {
@@ -21,48 +20,35 @@ export const manualBirdDog: ExerciseRecord = {
     level: "Beginner–Intermediate",
     movementCategory: "Quadruped / Kneeling",
     bodyPosition: "Quadruped / Kneeling",
-    movementCompass: ["Extension", "Core Stability", "Rib-Pelvis Alignment"],
+    movementCompass: ["Core Stability", "Rib-Pelvis Alignment", "Extension"],
     programmingWheelSlot: "Quadruped / Kneeling",
     laterality: "Alternating",
     supportType: ["Closed Chain", "Weight Bearing", "Shoulder Support"]
   },
   anatomy: {
-    primaryMusclesText:
-      "Posterior chain, gluteals, scapular stabilizers",
+    primaryMusclesText: "Posterior chain, gluteals, scapular stabilizers",
     stabilizersText: "Deep core stabilizers, scapular support",
-    primaryMuscleIds: ["glutes", "spinal-erectors", "shoulder-stabilizers"],
-    stabilizerMuscleIds: ["abdominals", "shoulder-stabilizers"],
-    regions: ["Posterior Chain", "Deep Core", "Shoulder Stabilizers"],
+    primaryMuscleIds: ["glutes", "hamstrings", "spinal-erectors", "shoulder-stabilizers"],
+    stabilizerMuscleIds: ["transversus-abdominis", "multifidus"],
+    regions: ["Deep Core", "Posterior Chain", "Shoulder Stabilizers"],
     bodyScanFocus: ["Pelvis", "Rib cage", "Shoulder girdle", "Wrist/hand support"],
     overlay: {
-      primary: ["glutes", "spinal-erectors", "shoulder-stabilizers"],
+      primary: ["glutes", "hamstrings", "spinal-erectors", "shoulder-stabilizers"],
       secondary: [],
-      stabilizers: ["abdominals", "shoulder-stabilizers"],
-      preferredView: "back"
+      stabilizers: ["transversus-abdominis", "multifidus"],
+      preferredView: "both"
     }
   },
   teaching: {
-    setup:
-      "Begin in quadruped with hands under shoulders and knees under hips.",
-    execution:
-      "Reach the opposite arm and leg long without shifting the trunk or pelvis.",
-    breathPattern:
-      "Inhale prepare. Exhale to reach and organize. Inhale to return.",
-    cues: [
-      "Lengthen rather than lift high, and keep the ribs from dropping or flaring."
-    ],
-    commonMistakes: [
-      "Overextending the spine, shifting weight heavily to one side, or locking the elbows."
-    ],
-    modifications: [
-      "Reach only the arm or only the leg."
-    ],
-    progressions: [
-      "Add holds, pulses, or an unstable support challenge."
-    ]
+    setup: "Begin in quadruped with hands under shoulders and knees under hips.",
+    execution: "Reach the opposite arm and leg long without shifting the trunk or pelvis.",
+    breathPattern: "Inhale prepare. Exhale to reach and organize. Inhale to return.",
+    cues: ["Lengthen rather than lift high, and keep the ribs from dropping or flaring."],
+    commonMistakes: ["Overextending the spine, shifting weight heavily to one side, or locking the elbows."],
+    modifications: ["Reach only the arm or only the leg."],
+    progressions: ["Add holds, pulses, or an unstable support challenge."]
   },
   programming: {
-    sequenceNotes:
-      "Manual-source exercise from the quadruped / kneeling block."
+    sequenceNotes: "Manual-source exercise from the quadruped / kneeling quadruped / kneeling block."
   }
 };

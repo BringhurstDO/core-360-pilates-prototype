@@ -5,8 +5,7 @@ export const manualRainbow: ExerciseRecord = {
     id: "manual-rainbow",
     slug: "manual-rainbow",
     name: "Rainbow",
-    summary:
-      "Manual-source side-facing hip exercise for leg arc control from a stable trunk.",
+    summary: "Manual-source side-facing exercise from the side-lying hip / leg work category.",
     audienceMode: "instructor"
   },
   source: {
@@ -24,44 +23,32 @@ export const manualRainbow: ExerciseRecord = {
     movementCompass: ["Core Stability", "Rib-Pelvis Alignment", "Integration"],
     programmingWheelSlot: "Side-Lying / Side-Facing",
     laterality: "Side 1",
-    supportType: ["Open Chain", "Shoulder Support"]
+    supportType: ["Open Chain"]
   },
   anatomy: {
     primaryMusclesText: "Glute medius, adductors, obliques",
     stabilizersText: "Deep core stabilizers, pelvic stabilizers",
-    primaryMuscleIds: ["glutes", "adductors", "obliques"],
-    stabilizerMuscleIds: ["abdominals", "obliques"],
-    regions: ["Lateral System", "Deep Core", "Anterior Core"],
-    bodyScanFocus: ["Pelvis", "Rib cage", "Shoulder girdle"],
+    primaryMuscleIds: ["obliques", "adductors", "glutes"],
+    stabilizerMuscleIds: ["transversus-abdominis", "multifidus"],
+    regions: ["Deep Core", "Anterior Core", "Posterior Chain", "Lateral System"],
+    bodyScanFocus: ["Pelvis", "Rib cage"],
     overlay: {
-      primary: ["glutes", "adductors", "obliques"],
+      primary: ["obliques", "adductors", "glutes"],
       secondary: [],
-      stabilizers: ["abdominals", "obliques"],
+      stabilizers: ["transversus-abdominis", "multifidus"],
       preferredView: "both"
     }
   },
   teaching: {
-    setup:
-      "Lie side-facing with the underside waist gently lifted and the pelvis stacked.",
-    execution:
-      "Move the top leg through a controlled arc while keeping the trunk quiet and supported.",
-    breathPattern:
-      "Inhale prepare. Exhale through the leg sweep and return with control.",
-    cues: [
-      "Keep the pelvis stacked and think of the leg moving from a stable center."
-    ],
-    commonMistakes: [
-      "Rolling backward, collapsing the waist, or turning it into lateral trunk bending."
-    ],
-    modifications: [
-      "Decrease the range or bend the knee."
-    ],
-    progressions: [
-      "Add larger arcs or longer lever length while maintaining trunk control."
-    ]
+    setup: "Lie side-facing with the underside waist gently lifted and the pelvis stacked.",
+    execution: "Move the top leg through a controlled arc while keeping the trunk quiet and supported.",
+    breathPattern: "Inhale prepare. Exhale through the leg sweep and return with control.",
+    cues: ["Keep the pelvis stacked and think of the leg moving from a stable center."],
+    commonMistakes: ["Rolling backward, collapsing the waist, or turning it into lateral trunk bending."],
+    modifications: ["Decrease the range or bend the knee."],
+    progressions: ["Add larger arcs or longer lever length while maintaining trunk control."]
   },
   programming: {
-    sequenceNotes:
-      "Manual-source exercise from the side-facing hip / leg work block."
+    sequenceNotes: "Manual-source exercise from the side-facing side-lying hip / leg work block."
   }
 };

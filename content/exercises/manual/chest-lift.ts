@@ -5,8 +5,7 @@ export const manualChestLift: ExerciseRecord = {
     id: "manual-chest-lift",
     slug: "manual-chest-lift",
     name: "Chest Lift",
-    summary:
-      "Manual-source forward-flexion exercise for abdominal support and rib-pelvis organization.",
+    summary: "Manual-source supine exercise from the abdominals / forward flexion category.",
     audienceMode: "instructor"
   },
   source: {
@@ -14,7 +13,8 @@ export const manualChestLift: ExerciseRecord = {
     page: 13,
     section: "Supine",
     originalName: "Chest Lift",
-    sourceStatus: "manual-source"
+    sourceStatus: "needs-stacey-review",
+    reviewQuestions: ["Should the generic setup/execution language remain exact manual text or be expanded in a Stacey-reviewed teaching pass?"]
   },
   classification: {
     equipment: ["Mat"],
@@ -31,8 +31,8 @@ export const manualChestLift: ExerciseRecord = {
     stabilizersText: "Deep neck flexors, scapular stabilizers",
     primaryMuscleIds: ["abdominals", "obliques"],
     stabilizerMuscleIds: ["shoulder-stabilizers"],
-    regions: ["Anterior Core", "Deep Core", "Shoulder Stabilizers"],
-    bodyScanFocus: ["Head and neck", "Rib cage", "Pelvis"],
+    regions: ["Anterior Core", "Shoulder Stabilizers", "Lateral System"],
+    bodyScanFocus: ["Pelvis", "Rib cage", "Head and neck"],
     overlay: {
       primary: ["abdominals", "obliques"],
       secondary: [],
@@ -42,24 +42,14 @@ export const manualChestLift: ExerciseRecord = {
   },
   teaching: {
     setup: "Establish alignment and prepare breath.",
-    execution:
-      "Move with controlled tempo while maintaining organization and support.",
+    execution: "Move with controlled tempo while maintaining organization and support.",
     breathPattern: "Inhale to prepare, exhale through the effort.",
-    cues: [
-      "Encourage length, control, and rib-pelvis organization."
-    ],
-    commonMistakes: [
-      "Losing alignment, gripping unnecessary muscles, or using momentum."
-    ],
-    modifications: [
-      "Reduce range, shorten lever length, or add support as needed."
-    ],
-    progressions: [
-      "Increase lever length, complexity, or challenge only when control is maintained."
-    ]
+    cues: ["Encourage length, control, and rib-pelvis organization."],
+    commonMistakes: ["Losing alignment, gripping unnecessary muscles, or using momentum."],
+    modifications: ["Reduce range, shorten lever length, or add support as needed."],
+    progressions: ["Increase lever length, complexity, or challenge only when control is maintained."]
   },
   programming: {
-    sequenceNotes:
-      "Manual-source exercise from the supine abdominals / forward flexion block."
+    sequenceNotes: "Manual-source exercise from the supine abdominals / forward flexion block."
   }
 };

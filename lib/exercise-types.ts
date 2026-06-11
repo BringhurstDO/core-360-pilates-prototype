@@ -112,6 +112,8 @@ export const SOURCE_STATUSES = [
 ] as const;
 
 export const MUSCLE_GROUPS = [
+  "transversus-abdominis",
+  "multifidus",
   "abdominals",
   "obliques",
   "hip-flexors",
@@ -148,6 +150,8 @@ export type AudienceMode = (typeof AUDIENCE_MODES)[number];
 export type AnatomyViewMode = "front" | "back" | "both";
 
 export const muscleGroupLabels: Record<MuscleGroupId, string> = {
+  "transversus-abdominis": "Transversus Abdominis",
+  multifidus: "Multifidus",
   abdominals: "Abdominals",
   obliques: "Obliques",
   "hip-flexors": "Hip Flexors",

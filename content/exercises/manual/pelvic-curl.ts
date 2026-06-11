@@ -5,8 +5,7 @@ export const manualPelvicCurl: ExerciseRecord = {
     id: "manual-pelvic-curl",
     slug: "manual-pelvic-curl",
     name: "Pelvic Curl",
-    summary:
-      "Manual-source bridging exercise for posterior-chain recruitment and segmental spinal control.",
+    summary: "Manual-source supine exercise from the bridging category.",
     audienceMode: "instructor"
   },
   source: {
@@ -27,42 +26,29 @@ export const manualPelvicCurl: ExerciseRecord = {
     supportType: ["Closed Chain"]
   },
   anatomy: {
-    primaryMusclesText:
-      "Gluteals, hamstrings, posterior chain, abdominals",
+    primaryMusclesText: "Gluteals, hamstrings, posterior chain, abdominals",
     stabilizersText: "Deep core stabilizers",
-    primaryMuscleIds: ["glutes", "hamstrings", "abdominals"],
-    stabilizerMuscleIds: ["abdominals"],
-    regions: ["Posterior Chain", "Deep Core", "Anterior Core"],
+    primaryMuscleIds: ["abdominals", "glutes", "hamstrings", "spinal-erectors"],
+    stabilizerMuscleIds: ["transversus-abdominis", "multifidus"],
+    regions: ["Deep Core", "Anterior Core", "Posterior Chain"],
     bodyScanFocus: ["Feet and ankles", "Knees", "Pelvis", "Rib cage"],
     overlay: {
-      primary: ["glutes", "hamstrings", "abdominals"],
+      primary: ["abdominals", "glutes", "hamstrings", "spinal-erectors"],
       secondary: [],
-      stabilizers: ["abdominals"],
+      stabilizers: ["transversus-abdominis", "multifidus"],
       preferredView: "both"
     }
   },
   teaching: {
-    setup:
-      "Begin supine with feet grounded, pelvis level, and shoulders relaxed.",
-    execution:
-      "Articulate the pelvis and spine off the mat one segment at a time, then lower with control.",
-    breathPattern:
-      "Inhale prepare. Exhale to curl and lift. Inhale at the top. Exhale to lower.",
-    cues: [
-      "Press evenly through both feet and lengthen the knees away from the ribs."
-    ],
-    commonMistakes: [
-      "Pushing into the neck, flaring the ribs, or rolling up too high without support."
-    ],
-    modifications: [
-      "Perform a smaller lift or hold a neutral bridge without articulation."
-    ],
-    progressions: [
-      "Add marching, longer lever work, or single-leg challenge."
-    ]
+    setup: "Begin supine with feet grounded, pelvis level, and shoulders relaxed.",
+    execution: "Articulate the pelvis and spine off the mat one segment at a time, then lower with control.",
+    breathPattern: "Inhale prepare. Exhale to curl and lift. Inhale at the top. Exhale to lower.",
+    cues: ["Press evenly through both feet and lengthen the knees away from the ribs."],
+    commonMistakes: ["Pushing into the neck, flaring the ribs, or rolling up too high without support."],
+    modifications: ["Perform a smaller lift or hold a neutral bridge without articulation."],
+    progressions: ["Add marching, longer lever work, or single-leg challenge."]
   },
   programming: {
-    sequenceNotes:
-      "Manual-source exercise from the supine bridging block."
+    sequenceNotes: "Manual-source exercise from the supine bridging block."
   }
 };

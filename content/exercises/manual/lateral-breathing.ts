@@ -5,8 +5,7 @@ export const manualLateralBreathing: ExerciseRecord = {
     id: "manual-lateral-breathing",
     slug: "manual-lateral-breathing",
     name: "Lateral Breathing",
-    summary:
-      "Manual-source breathing exercise for rib expansion, abdominal organization, and pelvic awareness.",
+    summary: "Manual-source supine exercise from the breathing / pelvic tilts category.",
     audienceMode: "instructor"
   },
   source: {
@@ -27,43 +26,29 @@ export const manualLateralBreathing: ExerciseRecord = {
     supportType: ["Open Chain"]
   },
   anatomy: {
-    primaryMusclesText:
-      "Diaphragm, transverse abdominis, pelvic floor, obliques",
-    stabilizersText:
-      "Deep core stabilizers, cervical flexor support, scapular stabilizers",
-    primaryMuscleIds: ["abdominals", "obliques"],
-    stabilizerMuscleIds: ["shoulder-stabilizers"],
-    regions: ["Deep Core", "Anterior Core", "Shoulder Stabilizers"],
-    bodyScanFocus: ["Pelvis", "Rib cage", "Head and neck"],
+    primaryMusclesText: "Diaphragm, transverse abdominis, pelvic floor, obliques",
+    stabilizersText: "Deep core stabilizers, cervical flexor support, scapular stabilizers",
+    primaryMuscleIds: ["transversus-abdominis", "obliques"],
+    stabilizerMuscleIds: ["multifidus", "shoulder-stabilizers"],
+    regions: ["Deep Core", "Anterior Core", "Shoulder Stabilizers", "Lateral System"],
+    bodyScanFocus: ["Pelvis", "Rib cage"],
     overlay: {
-      primary: ["abdominals", "obliques"],
+      primary: ["transversus-abdominis", "obliques"],
       secondary: [],
-      stabilizers: ["shoulder-stabilizers"],
-      preferredView: "front"
+      stabilizers: ["multifidus", "shoulder-stabilizers"],
+      preferredView: "both"
     }
   },
   teaching: {
-    setup:
-      "Find a comfortable supine position with the pelvis level and ribs soft.",
-    execution:
-      "Direct the inhale into the sides and back of the rib cage without lifting the chest aggressively.",
-    breathPattern:
-      "Inhale to expand the ribs. Exhale to organize the abdominals and pelvis.",
-    cues: [
-      "Keep the neck relaxed and the feet grounded without gripping."
-    ],
-    commonMistakes: [
-      "Rib flare, jaw tension, over-bracing, or flattening the spine excessively."
-    ],
-    modifications: [
-      "Support the head or keep the knees bent if needed."
-    ],
-    progressions: [
-      "Add arm motion, leg slides, or longer exhalation control."
-    ]
+    setup: "Find a comfortable supine position with the pelvis level and ribs soft.",
+    execution: "Direct the inhale into the sides and back of the rib cage without lifting the chest aggressively.",
+    breathPattern: "Inhale to expand the ribs. Exhale to organize the abdominals and pelvis.",
+    cues: ["Keep the neck relaxed and the feet grounded without gripping."],
+    commonMistakes: ["Rib flare, jaw tension, over-bracing, or flattening the spine excessively."],
+    modifications: ["Support the head or keep the knees bent if needed."],
+    progressions: ["Add arm motion, leg slides, or longer exhalation control."]
   },
   programming: {
-    sequenceNotes:
-      "Manual-source exercise from the supine breathing / pelvic tilts opening block."
+    sequenceNotes: "Manual-source exercise from the supine breathing / pelvic tilts block."
   }
 };

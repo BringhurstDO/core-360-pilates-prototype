@@ -5,8 +5,7 @@ export const manualTabletopHold: ExerciseRecord = {
     id: "manual-tabletop-hold",
     slug: "manual-tabletop-hold",
     name: "Tabletop Hold",
-    summary:
-      "Manual-source supine hold from the breathing / pelvic tilts category.",
+    summary: "Manual-source supine exercise from the breathing / pelvic tilts category.",
     audienceMode: "instructor"
   },
   source: {
@@ -14,11 +13,8 @@ export const manualTabletopHold: ExerciseRecord = {
     page: 25,
     section: "Supine",
     originalName: "Tabletop Hold",
-    sourceStatus: "manual-source",
-    reviewQuestions: [
-      "Should \"Varies\" remain generic or receive Stacey-approved primary muscle emphasis?",
-      "Should the generic setup/execution language remain exact manual text or be expanded in a Stacey-reviewed teaching pass?"
-    ]
+    sourceStatus: "needs-stacey-review",
+    reviewQuestions: ["Should the generic setup/execution language remain exact manual text or be expanded in a Stacey-reviewed teaching pass?"]
   },
   classification: {
     equipment: ["Mat"],
@@ -31,39 +27,29 @@ export const manualTabletopHold: ExerciseRecord = {
     supportType: ["Open Chain"]
   },
   anatomy: {
-    primaryMusclesText: "Varies",
+    primaryMusclesText: "Transversus abdominis, hip flexors, multifidus",
     stabilizersText: "Deep core stabilizers",
-    primaryMuscleIds: [],
-    stabilizerMuscleIds: ["abdominals"],
-    regions: ["Deep Core"],
+    primaryMuscleIds: ["transversus-abdominis", "multifidus", "hip-flexors"],
+    stabilizerMuscleIds: [],
+    regions: ["Deep Core", "Anterior Core"],
     bodyScanFocus: ["Pelvis", "Rib cage"],
     overlay: {
-      primary: [],
+      primary: ["transversus-abdominis", "multifidus", "hip-flexors"],
       secondary: [],
-      stabilizers: ["abdominals"],
-      preferredView: "front"
+      stabilizers: [],
+      preferredView: "both"
     }
   },
   teaching: {
     setup: "Establish alignment and prepare breath.",
-    execution:
-      "Move with controlled tempo while maintaining organization and support.",
+    execution: "Move with controlled tempo while maintaining organization and support.",
     breathPattern: "Inhale to prepare, exhale through the effort.",
-    cues: [
-      "Encourage length, control, and rib-pelvis organization."
-    ],
-    commonMistakes: [
-      "Losing alignment, gripping unnecessary muscles, or using momentum."
-    ],
-    modifications: [
-      "Reduce range, shorten lever length, or add support as needed."
-    ],
-    progressions: [
-      "Increase lever length, complexity, or challenge only when control is maintained."
-    ]
+    cues: ["Encourage length, control, and rib-pelvis organization."],
+    commonMistakes: ["Losing alignment, gripping unnecessary muscles, or using momentum."],
+    modifications: ["Reduce range, shorten lever length, or add support as needed."],
+    progressions: ["Increase lever length, complexity, or challenge only when control is maintained."]
   },
   programming: {
-    sequenceNotes:
-      "Manual-source exercise from the supine breathing / pelvic tilts block."
+    sequenceNotes: "Manual-source exercise from the supine breathing / pelvic tilts block."
   }
 };
