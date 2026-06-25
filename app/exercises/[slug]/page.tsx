@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ExerciseDetailModes } from "@/components/exercise-detail-modes";
+import { ExerciseReviewFeedbackForm } from "@/components/exercise-review-feedback-form";
 import { ExerciseSourceBadges } from "@/components/exercise-source-badges";
 import {
   getAllExerciseSlugs,
@@ -129,6 +130,8 @@ export default async function ExerciseDetailPage({
               </ul>
             </section>
           ) : null}
+
+          <ExerciseReviewFeedbackForm exercise={exercise} />
         </aside>
       </section>
     </main>
