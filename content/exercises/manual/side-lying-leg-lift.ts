@@ -52,4 +52,17 @@ export const manualSideLyingLegLift: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the side-facing side-lying hip / leg work block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-side-lying-leg-lift-teaching",
+      title: "Side-Lying Leg Lift",
+      description: "Generated muscle-emphasis teaching diagram for Side-Lying Leg Lift.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-side-lying-leg-lift.png",
+      imageAlt: "Side-Lying Leg Lift teaching diagram with highlighted muscles"
+    }
+  }
 };

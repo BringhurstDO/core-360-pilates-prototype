@@ -52,4 +52,17 @@ export const manualProneBreathing: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the prone / extension spinal extension block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-prone-breathing-teaching",
+      title: "Prone Breathing",
+      description: "Generated muscle-emphasis teaching diagram for Prone Breathing.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-prone-breathing.png",
+      imageAlt: "Prone Breathing teaching diagram with highlighted muscles"
+    }
+  }
 };

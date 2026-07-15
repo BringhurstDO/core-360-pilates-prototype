@@ -52,4 +52,17 @@ export const manualDonkeyKick: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the quadruped / kneeling quadruped / kneeling block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-donkey-kick-teaching",
+      title: "Donkey Kick",
+      description: "Generated muscle-emphasis teaching diagram for Donkey Kick.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-donkey-kick.png",
+      imageAlt: "Donkey Kick teaching diagram with highlighted muscles"
+    }
+  }
 };

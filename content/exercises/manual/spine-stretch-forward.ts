@@ -52,4 +52,17 @@ export const manualSpineStretchForward: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the seated seated spinal work block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-spine-stretch-forward-teaching",
+      title: "Spine Stretch Forward",
+      description: "Generated muscle-emphasis teaching diagram for Spine Stretch Forward.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-spine-stretch-forward.png",
+      imageAlt: "Spine Stretch Forward teaching diagram with highlighted muscles"
+    }
+  }
 };

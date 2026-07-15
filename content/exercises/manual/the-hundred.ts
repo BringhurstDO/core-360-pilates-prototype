@@ -52,4 +52,17 @@ export const manualTheHundred: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the supine abdominals / forward flexion block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-the-hundred-teaching",
+      title: "The Hundred",
+      description: "Generated muscle-emphasis teaching diagram for The Hundred.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-the-hundred.png",
+      imageAlt: "The Hundred teaching diagram with highlighted muscles"
+    }
+  }
 };

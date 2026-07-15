@@ -52,4 +52,17 @@ export const manualSingleLegStretch: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the supine abdominals / forward flexion block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-single-leg-stretch-teaching",
+      title: "Single Leg Stretch",
+      description: "Generated muscle-emphasis teaching diagram for Single Leg Stretch.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-single-leg-stretch.png",
+      imageAlt: "Single Leg Stretch teaching diagram with highlighted muscles"
+    }
+  }
 };

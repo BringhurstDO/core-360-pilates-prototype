@@ -51,4 +51,17 @@ export const manualPelvicCurl: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the supine bridging block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-pelvic-curl-teaching",
+      title: "Pelvic Curl",
+      description: "Generated muscle-emphasis teaching diagram for Pelvic Curl.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-pelvic-curl.png",
+      imageAlt: "Pelvic Curl teaching diagram with highlighted muscles"
+    }
+  }
 };

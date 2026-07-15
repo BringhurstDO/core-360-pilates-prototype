@@ -52,4 +52,17 @@ export const manualBirdDogWithReach: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the quadruped / kneeling quadruped / kneeling block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-bird-dog-with-reach-teaching",
+      title: "Bird Dog with Reach",
+      description: "Generated muscle-emphasis teaching diagram for Bird Dog with Reach.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-bird-dog-with-reach.png",
+      imageAlt: "Bird Dog with Reach teaching diagram with highlighted muscles"
+    }
+  }
 };

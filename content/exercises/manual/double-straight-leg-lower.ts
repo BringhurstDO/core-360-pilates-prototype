@@ -52,4 +52,17 @@ export const manualDoubleStraightLegLower: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the supine abdominals / forward flexion block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-double-straight-leg-lower-teaching",
+      title: "Double Straight Leg Lower",
+      description: "Generated muscle-emphasis teaching diagram for Double Straight Leg Lower.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-double-straight-leg-lower.png",
+      imageAlt: "Double Straight Leg Lower teaching diagram with highlighted muscles"
+    }
+  }
 };

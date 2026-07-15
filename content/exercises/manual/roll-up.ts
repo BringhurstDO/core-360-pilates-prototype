@@ -52,4 +52,17 @@ export const manualRollUp: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the supine abdominals / forward flexion block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-roll-up-teaching",
+      title: "Roll Up",
+      description: "Generated muscle-emphasis teaching diagram for Roll Up.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-roll-up.png",
+      imageAlt: "Roll Up teaching diagram with highlighted muscles"
+    }
+  }
 };

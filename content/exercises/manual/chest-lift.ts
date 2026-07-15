@@ -52,4 +52,17 @@ export const manualChestLift: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the supine abdominals / forward flexion block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-chest-lift-teaching",
+      title: "Chest Lift",
+      description: "Generated muscle-emphasis teaching diagram for Chest Lift.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-chest-lift.png",
+      imageAlt: "Chest Lift teaching diagram with highlighted muscles"
+    }
+  }
 };

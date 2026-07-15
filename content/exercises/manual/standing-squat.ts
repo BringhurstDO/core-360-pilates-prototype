@@ -52,4 +52,17 @@ export const manualStandingSquat: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the standing integration standing integration block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-standing-squat-teaching",
+      title: "Standing Squat",
+      description: "Generated muscle-emphasis teaching diagram for Standing Squat.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-standing-squat.png",
+      imageAlt: "Standing Squat teaching diagram with highlighted muscles"
+    }
+  }
 };

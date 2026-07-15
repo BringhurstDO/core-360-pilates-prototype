@@ -52,4 +52,17 @@ export const manualPelvicTilt: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the supine breathing / pelvic tilts block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-pelvic-tilt-teaching",
+      title: "Pelvic Tilt",
+      description: "Generated muscle-emphasis teaching diagram for Pelvic Tilt.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-pelvic-tilt.png",
+      imageAlt: "Pelvic Tilt teaching diagram with highlighted muscles"
+    }
+  }
 };

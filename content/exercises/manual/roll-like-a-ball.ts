@@ -52,4 +52,17 @@ export const manualRollLikeABall: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the supine abdominals / forward flexion block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-roll-like-a-ball-teaching",
+      title: "Roll Like a Ball",
+      description: "Generated muscle-emphasis teaching diagram for Roll Like a Ball.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-roll-like-a-ball.png",
+      imageAlt: "Roll Like a Ball teaching diagram with highlighted muscles"
+    }
+  }
 };

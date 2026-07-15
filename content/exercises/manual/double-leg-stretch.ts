@@ -52,4 +52,17 @@ export const manualDoubleLegStretch: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the supine abdominals / forward flexion block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-double-leg-stretch-teaching",
+      title: "Double Leg Stretch",
+      description: "Generated muscle-emphasis teaching diagram for Double Leg Stretch.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-double-leg-stretch.png",
+      imageAlt: "Double Leg Stretch teaching diagram with highlighted muscles"
+    }
+  }
 };

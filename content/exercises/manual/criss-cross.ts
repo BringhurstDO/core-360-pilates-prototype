@@ -52,4 +52,17 @@ export const manualCrissCross: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the supine twisting / rotation block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-criss-cross-teaching",
+      title: "Criss Cross",
+      description: "Generated muscle-emphasis teaching diagram for Criss Cross.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-criss-cross.png",
+      imageAlt: "Criss Cross teaching diagram with highlighted muscles"
+    }
+  }
 };

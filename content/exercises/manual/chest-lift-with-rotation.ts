@@ -52,4 +52,17 @@ export const manualChestLiftWithRotation: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the supine twisting / rotation block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-chest-lift-with-rotation-teaching",
+      title: "Chest Lift with Rotation",
+      description: "Generated muscle-emphasis teaching diagram for Chest Lift with Rotation.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-chest-lift-with-rotation.png",
+      imageAlt: "Chest Lift with Rotation teaching diagram with highlighted muscles"
+    }
+  }
 };

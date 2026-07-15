@@ -52,4 +52,17 @@ export const manualMountainClimber: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the plank / closed chain planking block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-mountain-climber-teaching",
+      title: "Mountain Climber",
+      description: "Generated muscle-emphasis teaching diagram for Mountain Climber.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-mountain-climber.png",
+      imageAlt: "Mountain Climber teaching diagram with highlighted muscles"
+    }
+  }
 };

@@ -52,4 +52,17 @@ export const manualBridgeWithLegExtension: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the supine bridging block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-bridge-with-leg-extension-teaching",
+      title: "Bridge with Leg Extension",
+      description: "Generated muscle-emphasis teaching diagram for Bridge with Leg Extension.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-bridge-with-leg-extension.png",
+      imageAlt: "Bridge with Leg Extension teaching diagram with highlighted muscles"
+    }
+  }
 };

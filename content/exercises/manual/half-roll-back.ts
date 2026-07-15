@@ -52,4 +52,17 @@ export const manualHalfRollBack: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the supine abdominals / forward flexion block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-half-roll-back-teaching",
+      title: "Half Roll Back",
+      description: "Generated muscle-emphasis teaching diagram for Half Roll Back.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-half-roll-back.png",
+      imageAlt: "Half Roll Back teaching diagram with highlighted muscles"
+    }
+  }
 };

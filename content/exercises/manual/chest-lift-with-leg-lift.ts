@@ -52,4 +52,17 @@ export const manualChestLiftWithLegLift: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the supine abdominals / forward flexion block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-chest-lift-with-leg-lift-teaching",
+      title: "Chest Lift with Leg Lift",
+      description: "Generated muscle-emphasis teaching diagram for Chest Lift with Leg Lift.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-chest-lift-with-leg-lift.png",
+      imageAlt: "Chest Lift with Leg Lift teaching diagram with highlighted muscles"
+    }
+  }
 };

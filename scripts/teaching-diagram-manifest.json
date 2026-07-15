@@ -1,0 +1,1390 @@
+{
+  "generatedAt": "2026-07-15T04:23:29.896Z",
+  "count": 78,
+  "entries": [
+    {
+      "slug": "manual-baby-swan",
+      "name": "Baby Swan",
+      "file": "baby-swan.ts",
+      "bodyPosition": "Prone / Extension",
+      "category": "Spinal Extension",
+      "filename": "manual-baby-swan.png",
+      "publicPath": "/teaching-diagrams/manual-baby-swan.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Baby Swan. Pose: prone, upper chest and head lifting in extension supported on hands or forearms, side profile. Highlight these muscle areas in magenta-pink: small deep muscles along the lower spine; gluteals on the buttock and outer hip; erector spinae along the back; shoulder and scapular stabilizers around the shoulder blade; deep lower abdomen and transverse abdominis band.",
+      "primaryIds": [
+        "multifidus",
+        "glutes",
+        "spinal-erectors",
+        "shoulder-stabilizers"
+      ],
+      "stabilizerIds": [
+        "transversus-abdominis"
+      ]
+    },
+    {
+      "slug": "manual-bird-dog",
+      "name": "Bird Dog",
+      "file": "bird-dog.ts",
+      "bodyPosition": "Quadruped / Kneeling",
+      "category": "Quadruped / Kneeling",
+      "filename": "manual-bird-dog.png",
+      "publicPath": "/teaching-diagrams/manual-bird-dog.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Bird Dog. Pose: quadruped tabletop, opposite arm and leg reaching long, side profile. Highlight these muscle areas in magenta-pink: gluteals on the buttock and outer hip; hamstrings on the back of the thighs; erector spinae along the back; shoulder and scapular stabilizers around the shoulder blade; deep lower abdomen and transverse abdominis band; small deep muscles along the lower spine.",
+      "primaryIds": [
+        "glutes",
+        "hamstrings",
+        "spinal-erectors",
+        "shoulder-stabilizers"
+      ],
+      "stabilizerIds": [
+        "transversus-abdominis",
+        "multifidus"
+      ]
+    },
+    {
+      "slug": "manual-bird-dog-with-reach",
+      "name": "Bird Dog with Reach",
+      "file": "bird-dog-with-reach.ts",
+      "bodyPosition": "Quadruped / Kneeling",
+      "category": "Quadruped / Kneeling",
+      "filename": "manual-bird-dog-with-reach.png",
+      "publicPath": "/teaching-diagrams/manual-bird-dog-with-reach.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Bird Dog with Reach. Pose: quadruped tabletop, opposite arm and leg reaching long, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; small deep muscles along the lower spine; gluteals on the buttock and outer hip; shoulder and scapular stabilizers around the shoulder blade.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "multifidus",
+        "glutes",
+        "shoulder-stabilizers"
+      ],
+      "stabilizerIds": []
+    },
+    {
+      "slug": "manual-bridge",
+      "name": "Bridge",
+      "file": "bridge.ts",
+      "bodyPosition": "Supine",
+      "category": "Bridging",
+      "filename": "manual-bridge.png",
+      "publicPath": "/teaching-diagrams/manual-bridge.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Bridge. Pose: lying on back, knees bent, hips lifted in a bridge with feet grounded on the mat, side profile view. Highlight these muscle areas in magenta-pink: gluteals on the buttock and outer hip; hamstrings on the back of the thighs; erector spinae along the back; deep lower abdomen and transverse abdominis band; small deep muscles along the lower spine.",
+      "primaryIds": [
+        "glutes",
+        "hamstrings",
+        "spinal-erectors"
+      ],
+      "stabilizerIds": [
+        "transversus-abdominis",
+        "multifidus"
+      ]
+    },
+    {
+      "slug": "manual-bridge-with-leg-extension",
+      "name": "Bridge with Leg Extension",
+      "file": "bridge-with-leg-extension.ts",
+      "bodyPosition": "Supine",
+      "category": "Bridging",
+      "filename": "manual-bridge-with-leg-extension.png",
+      "publicPath": "/teaching-diagrams/manual-bridge-with-leg-extension.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Bridge with Leg Extension. Pose: lying on back, knees bent, hips lifted in a bridge with feet grounded on the mat, side profile view. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; small deep muscles along the lower spine; gluteals on the buttock and outer hip; hamstrings on the back of the thighs.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "multifidus",
+        "glutes",
+        "hamstrings"
+      ],
+      "stabilizerIds": []
+    },
+    {
+      "slug": "manual-bridge-with-march",
+      "name": "Bridge with March",
+      "file": "bridge-with-march.ts",
+      "bodyPosition": "Supine",
+      "category": "Bridging",
+      "filename": "manual-bridge-with-march.png",
+      "publicPath": "/teaching-diagrams/manual-bridge-with-march.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Bridge with March. Pose: lying on back, knees bent, hips lifted in a bridge with feet grounded on the mat, side profile view. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; small deep muscles along the lower spine; gluteals on the buttock and outer hip; hamstrings on the back of the thighs.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "multifidus",
+        "glutes",
+        "hamstrings"
+      ],
+      "stabilizerIds": []
+    },
+    {
+      "slug": "manual-cat-cow",
+      "name": "Cat Cow",
+      "file": "cat-cow.ts",
+      "bodyPosition": "Quadruped / Kneeling",
+      "category": "Quadruped / Kneeling",
+      "filename": "manual-cat-cow.png",
+      "publicPath": "/teaching-diagrams/manual-cat-cow.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Cat Cow. Pose: quadruped, spine in gentle cat flexion, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; small deep muscles along the lower spine.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "multifidus"
+      ],
+      "stabilizerIds": []
+    },
+    {
+      "slug": "manual-chest-lift",
+      "name": "Chest Lift",
+      "file": "chest-lift.ts",
+      "bodyPosition": "Supine",
+      "category": "Abdominals / Forward Flexion",
+      "filename": "manual-chest-lift.png",
+      "publicPath": "/teaching-diagrams/manual-chest-lift.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Chest Lift. Pose: supine with knees bent, head and shoulders curling up off the mat, side profile. Highlight these muscle areas in magenta-pink: rectus abdominis on the front abdominal wall; obliques along the side waist; shoulder and scapular stabilizers around the shoulder blade.",
+      "primaryIds": [
+        "abdominals",
+        "obliques"
+      ],
+      "stabilizerIds": [
+        "shoulder-stabilizers"
+      ]
+    },
+    {
+      "slug": "manual-chest-lift-with-leg-lift",
+      "name": "Chest Lift with Leg Lift",
+      "file": "chest-lift-with-leg-lift.ts",
+      "bodyPosition": "Supine",
+      "category": "Abdominals / Forward Flexion",
+      "filename": "manual-chest-lift-with-leg-lift.png",
+      "publicPath": "/teaching-diagrams/manual-chest-lift-with-leg-lift.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Chest Lift with Leg Lift. Pose: supine with knees bent, head and shoulders curling up off the mat, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; rectus abdominis on the front abdominal wall; hip flexors at the front of the hip; small deep muscles along the lower spine.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "abdominals",
+        "hip-flexors"
+      ],
+      "stabilizerIds": [
+        "multifidus"
+      ]
+    },
+    {
+      "slug": "manual-chest-lift-with-reach",
+      "name": "Chest Lift with Reach",
+      "file": "chest-lift-with-reach.ts",
+      "bodyPosition": "Supine",
+      "category": "Abdominals / Forward Flexion",
+      "filename": "manual-chest-lift-with-reach.png",
+      "publicPath": "/teaching-diagrams/manual-chest-lift-with-reach.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Chest Lift with Reach. Pose: supine with knees bent, head and shoulders curling up off the mat, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; rectus abdominis on the front abdominal wall; obliques along the side waist; small deep muscles along the lower spine.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "abdominals",
+        "obliques"
+      ],
+      "stabilizerIds": [
+        "multifidus"
+      ]
+    },
+    {
+      "slug": "manual-chest-lift-with-rotation",
+      "name": "Chest Lift with Rotation",
+      "file": "chest-lift-with-rotation.ts",
+      "bodyPosition": "Supine",
+      "category": "Twisting / Rotation",
+      "filename": "manual-chest-lift-with-rotation.png",
+      "publicPath": "/teaching-diagrams/manual-chest-lift-with-rotation.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Chest Lift with Rotation. Pose: supine with knees bent, head and shoulders curling up off the mat, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; small deep muscles along the lower spine; obliques along the side waist.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "multifidus",
+        "obliques"
+      ],
+      "stabilizerIds": []
+    },
+    {
+      "slug": "manual-criss-cross",
+      "name": "Criss Cross",
+      "file": "criss-cross.ts",
+      "bodyPosition": "Supine",
+      "category": "Twisting / Rotation",
+      "filename": "manual-criss-cross.png",
+      "publicPath": "/teaching-diagrams/manual-criss-cross.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Criss Cross. Pose: supine curled up, legs extended or cycling in the air, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; small deep muscles along the lower spine; obliques along the side waist.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "multifidus",
+        "obliques"
+      ],
+      "stabilizerIds": []
+    },
+    {
+      "slug": "manual-dart",
+      "name": "Dart",
+      "file": "dart.ts",
+      "bodyPosition": "Prone / Extension",
+      "category": "Spinal Extension",
+      "filename": "manual-dart.png",
+      "publicPath": "/teaching-diagrams/manual-dart.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Dart. Pose: prone, chest slightly lifted, arms reaching long, side profile. Highlight these muscle areas in magenta-pink: gluteals on the buttock and outer hip; erector spinae along the back; shoulder and scapular stabilizers around the shoulder blade; deep lower abdomen and transverse abdominis band; small deep muscles along the lower spine.",
+      "primaryIds": [
+        "glutes",
+        "spinal-erectors",
+        "shoulder-stabilizers"
+      ],
+      "stabilizerIds": [
+        "transversus-abdominis",
+        "multifidus"
+      ]
+    },
+    {
+      "slug": "manual-donkey-kick",
+      "name": "Donkey Kick",
+      "file": "donkey-kick.ts",
+      "bodyPosition": "Quadruped / Kneeling",
+      "category": "Quadruped / Kneeling",
+      "filename": "manual-donkey-kick.png",
+      "publicPath": "/teaching-diagrams/manual-donkey-kick.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Donkey Kick. Pose: quadruped, one leg lifting behind or to the side, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; small deep muscles along the lower spine; gluteals on the buttock and outer hip.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "multifidus",
+        "glutes"
+      ],
+      "stabilizerIds": []
+    },
+    {
+      "slug": "manual-double-leg-kick",
+      "name": "Double Leg Kick",
+      "file": "double-leg-kick.ts",
+      "bodyPosition": "Prone / Extension",
+      "category": "Spinal Extension",
+      "filename": "manual-double-leg-kick.png",
+      "publicPath": "/teaching-diagrams/manual-double-leg-kick.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Double Leg Kick. Pose: prone, knees bent kicking heels toward glutes, side profile. Highlight these muscle areas in magenta-pink: small deep muscles along the lower spine; gluteals on the buttock and outer hip; hamstrings on the back of the thighs; erector spinae along the back; deep lower abdomen and transverse abdominis band.",
+      "primaryIds": [
+        "multifidus",
+        "glutes",
+        "hamstrings",
+        "spinal-erectors"
+      ],
+      "stabilizerIds": [
+        "transversus-abdominis"
+      ]
+    },
+    {
+      "slug": "manual-double-leg-stretch",
+      "name": "Double Leg Stretch",
+      "file": "double-leg-stretch.ts",
+      "bodyPosition": "Supine",
+      "category": "Abdominals / Forward Flexion",
+      "filename": "manual-double-leg-stretch.png",
+      "publicPath": "/teaching-diagrams/manual-double-leg-stretch.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Double Leg Stretch. Pose: supine curled up, legs extended or cycling in the air, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; rectus abdominis on the front abdominal wall; hip flexors at the front of the hip; small deep muscles along the lower spine.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "abdominals",
+        "hip-flexors"
+      ],
+      "stabilizerIds": [
+        "multifidus"
+      ]
+    },
+    {
+      "slug": "manual-double-straight-leg-lower",
+      "name": "Double Straight Leg Lower",
+      "file": "double-straight-leg-lower.ts",
+      "bodyPosition": "Supine",
+      "category": "Abdominals / Forward Flexion",
+      "filename": "manual-double-straight-leg-lower.png",
+      "publicPath": "/teaching-diagrams/manual-double-straight-leg-lower.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Double Straight Leg Lower. Pose: supine curled up, legs extended or cycling in the air, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; rectus abdominis on the front abdominal wall; hip flexors at the front of the hip; small deep muscles along the lower spine.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "abdominals",
+        "hip-flexors"
+      ],
+      "stabilizerIds": [
+        "multifidus"
+      ]
+    },
+    {
+      "slug": "manual-fire-hydrant",
+      "name": "Fire Hydrant",
+      "file": "fire-hydrant.ts",
+      "bodyPosition": "Quadruped / Kneeling",
+      "category": "Quadruped / Kneeling",
+      "filename": "manual-fire-hydrant.png",
+      "publicPath": "/teaching-diagrams/manual-fire-hydrant.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Fire Hydrant. Pose: quadruped, one leg lifting behind or to the side, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; small deep muscles along the lower spine; gluteals on the buttock and outer hip.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "multifidus",
+        "glutes"
+      ],
+      "stabilizerIds": []
+    },
+    {
+      "slug": "manual-forearm-plank",
+      "name": "Forearm Plank",
+      "file": "forearm-plank.ts",
+      "bodyPosition": "Plank / Closed Chain",
+      "category": "Planking",
+      "filename": "manual-forearm-plank.png",
+      "publicPath": "/teaching-diagrams/manual-forearm-plank.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Forearm Plank. Pose: forearm plank, body in one long line, side profile. Highlight these muscle areas in magenta-pink: rectus abdominis on the front abdominal wall; gluteals on the buttock and outer hip; shoulder and scapular stabilizers around the shoulder blade; deep lower abdomen and transverse abdominis band; small deep muscles along the lower spine.",
+      "primaryIds": [
+        "abdominals",
+        "glutes",
+        "shoulder-stabilizers"
+      ],
+      "stabilizerIds": [
+        "transversus-abdominis",
+        "multifidus"
+      ]
+    },
+    {
+      "slug": "manual-full-plank",
+      "name": "Full Plank",
+      "file": "full-plank.ts",
+      "bodyPosition": "Plank / Closed Chain",
+      "category": "Planking",
+      "filename": "manual-full-plank.png",
+      "publicPath": "/teaching-diagrams/manual-full-plank.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Full Plank. Pose: full plank on hands and toes, straight body line, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; rectus abdominis on the front abdominal wall; gluteals on the buttock and outer hip; shoulder and scapular stabilizers around the shoulder blade; small deep muscles along the lower spine.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "abdominals",
+        "glutes",
+        "shoulder-stabilizers"
+      ],
+      "stabilizerIds": [
+        "multifidus"
+      ]
+    },
+    {
+      "slug": "manual-half-roll-back",
+      "name": "Half Roll Back",
+      "file": "half-roll-back.ts",
+      "bodyPosition": "Supine",
+      "category": "Abdominals / Forward Flexion",
+      "filename": "manual-half-roll-back.png",
+      "publicPath": "/teaching-diagrams/manual-half-roll-back.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Half Roll Back. Pose: supine on mat, knees bent feet flat, side profile view. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; rectus abdominis on the front abdominal wall; small deep muscles along the lower spine.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "abdominals"
+      ],
+      "stabilizerIds": [
+        "multifidus"
+      ]
+    },
+    {
+      "slug": "manual-hundred-prep",
+      "name": "Hundred Prep",
+      "file": "hundred-prep.ts",
+      "bodyPosition": "Supine",
+      "category": "Abdominals / Forward Flexion",
+      "filename": "manual-hundred-prep.png",
+      "publicPath": "/teaching-diagrams/manual-hundred-prep.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Hundred Prep. Pose: lying on back, head and shoulders lifted, knees in tabletop, arms reaching long beside the hips, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; rectus abdominis on the front abdominal wall; hip flexors at the front of the hip; small deep muscles along the lower spine.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "abdominals",
+        "hip-flexors"
+      ],
+      "stabilizerIds": [
+        "multifidus"
+      ]
+    },
+    {
+      "slug": "manual-knee-plank",
+      "name": "Knee Plank",
+      "file": "knee-plank.ts",
+      "bodyPosition": "Plank / Closed Chain",
+      "category": "Planking",
+      "filename": "manual-knee-plank.png",
+      "publicPath": "/teaching-diagrams/manual-knee-plank.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Knee Plank. Pose: modified plank on knees and hands, long line from knees to head, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; rectus abdominis on the front abdominal wall; gluteals on the buttock and outer hip; shoulder and scapular stabilizers around the shoulder blade; small deep muscles along the lower spine.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "abdominals",
+        "glutes",
+        "shoulder-stabilizers"
+      ],
+      "stabilizerIds": [
+        "multifidus"
+      ]
+    },
+    {
+      "slug": "manual-kneeling-arm-reach",
+      "name": "Kneeling Arm Reach",
+      "file": "kneeling-arm-reach.ts",
+      "bodyPosition": "Quadruped / Kneeling",
+      "category": "Quadruped / Kneeling",
+      "filename": "manual-kneeling-arm-reach.png",
+      "publicPath": "/teaching-diagrams/manual-kneeling-arm-reach.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Kneeling Arm Reach. Pose: hands and knees quadruped tabletop, neutral spine, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; small deep muscles along the lower spine.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "multifidus"
+      ],
+      "stabilizerIds": []
+    },
+    {
+      "slug": "manual-kneeling-plank-prep",
+      "name": "Kneeling Plank Prep",
+      "file": "kneeling-plank-prep.ts",
+      "bodyPosition": "Quadruped / Kneeling",
+      "category": "Quadruped / Kneeling",
+      "filename": "manual-kneeling-plank-prep.png",
+      "publicPath": "/teaching-diagrams/manual-kneeling-plank-prep.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Kneeling Plank Prep. Pose: kneeling plank prep with hands under shoulders, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; small deep muscles along the lower spine; shoulder and scapular stabilizers around the shoulder blade.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "multifidus",
+        "shoulder-stabilizers"
+      ],
+      "stabilizerIds": []
+    },
+    {
+      "slug": "manual-kneeling-rotation",
+      "name": "Kneeling Rotation",
+      "file": "kneeling-rotation.ts",
+      "bodyPosition": "Quadruped / Kneeling",
+      "category": "Quadruped / Kneeling",
+      "filename": "manual-kneeling-rotation.png",
+      "publicPath": "/teaching-diagrams/manual-kneeling-rotation.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Kneeling Rotation. Pose: kneeling upright, trunk rotating or side bending, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; small deep muscles along the lower spine.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "multifidus"
+      ],
+      "stabilizerIds": []
+    },
+    {
+      "slug": "manual-kneeling-side-bend",
+      "name": "Kneeling Side Bend",
+      "file": "kneeling-side-bend.ts",
+      "bodyPosition": "Quadruped / Kneeling",
+      "category": "Quadruped / Kneeling",
+      "filename": "manual-kneeling-side-bend.png",
+      "publicPath": "/teaching-diagrams/manual-kneeling-side-bend.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Kneeling Side Bend. Pose: kneeling upright, trunk rotating or side bending, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; small deep muscles along the lower spine.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "multifidus"
+      ],
+      "stabilizerIds": []
+    },
+    {
+      "slug": "manual-lateral-breathing",
+      "name": "Lateral Breathing",
+      "file": "lateral-breathing.ts",
+      "bodyPosition": "Supine",
+      "category": "Breathing / Pelvic Tilts",
+      "filename": "manual-lateral-breathing.png",
+      "publicPath": "/teaching-diagrams/manual-lateral-breathing.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Lateral Breathing. Pose: supine relaxed, knees bent feet flat, ribs soft, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; obliques along the side waist; small deep muscles along the lower spine; shoulder and scapular stabilizers around the shoulder blade.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "obliques"
+      ],
+      "stabilizerIds": [
+        "multifidus",
+        "shoulder-stabilizers"
+      ]
+    },
+    {
+      "slug": "manual-mermaid",
+      "name": "Mermaid",
+      "file": "mermaid.ts",
+      "bodyPosition": "Side-Facing Seated",
+      "category": "Lateral Flexion",
+      "filename": "manual-mermaid.png",
+      "publicPath": "/teaching-diagrams/manual-mermaid.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Mermaid. Pose: seated side-facing mermaid position, legs folded to one side, one arm reaching overhead in side bend, three-quarter view. Highlight these muscle areas in magenta-pink: obliques along the side waist; latissimus dorsi on the mid back; deep lower abdomen and transverse abdominis band; small deep muscles along the lower spine.",
+      "primaryIds": [
+        "obliques",
+        "lats"
+      ],
+      "stabilizerIds": [
+        "transversus-abdominis",
+        "multifidus"
+      ]
+    },
+    {
+      "slug": "manual-mermaid-with-rotation",
+      "name": "Mermaid with Rotation",
+      "file": "mermaid-with-rotation.ts",
+      "bodyPosition": "Side-Facing Seated",
+      "category": "Lateral Flexion",
+      "filename": "manual-mermaid-with-rotation.png",
+      "publicPath": "/teaching-diagrams/manual-mermaid-with-rotation.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Mermaid with Rotation. Pose: seated side-facing mermaid position, legs folded to one side, one arm reaching overhead in side bend, three-quarter view. Highlight these muscle areas in magenta-pink: small deep muscles along the lower spine; obliques along the side waist; deep lower abdomen and transverse abdominis band.",
+      "primaryIds": [
+        "multifidus",
+        "obliques"
+      ],
+      "stabilizerIds": [
+        "transversus-abdominis"
+      ]
+    },
+    {
+      "slug": "manual-mountain-climber",
+      "name": "Mountain Climber",
+      "file": "mountain-climber.ts",
+      "bodyPosition": "Plank / Closed Chain",
+      "category": "Planking",
+      "filename": "manual-mountain-climber.png",
+      "publicPath": "/teaching-diagrams/manual-mountain-climber.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Mountain Climber. Pose: full plank on hands, one hand or knee moving, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; rectus abdominis on the front abdominal wall; gluteals on the buttock and outer hip; shoulder and scapular stabilizers around the shoulder blade; small deep muscles along the lower spine.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "abdominals",
+        "glutes",
+        "shoulder-stabilizers"
+      ],
+      "stabilizerIds": [
+        "multifidus"
+      ]
+    },
+    {
+      "slug": "manual-neutral-pelvis-hold",
+      "name": "Neutral Pelvis Hold",
+      "file": "neutral-pelvis-hold.ts",
+      "bodyPosition": "Supine",
+      "category": "Breathing / Pelvic Tilts",
+      "filename": "manual-neutral-pelvis-hold.png",
+      "publicPath": "/teaching-diagrams/manual-neutral-pelvis-hold.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Neutral Pelvis Hold. Pose: supine relaxed, knees bent feet flat, ribs soft, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; small deep muscles along the lower spine.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "multifidus"
+      ],
+      "stabilizerIds": []
+    },
+    {
+      "slug": "manual-open-leg-rocker",
+      "name": "Open Leg Rocker",
+      "file": "open-leg-rocker.ts",
+      "bodyPosition": "Supine",
+      "category": "Abdominals / Forward Flexion",
+      "filename": "manual-open-leg-rocker.png",
+      "publicPath": "/teaching-diagrams/manual-open-leg-rocker.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Open Leg Rocker. Pose: supine curled into a compact ball shape with knees pulled in, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; rectus abdominis on the front abdominal wall; hip flexors at the front of the hip; small deep muscles along the lower spine.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "abdominals",
+        "hip-flexors"
+      ],
+      "stabilizerIds": [
+        "multifidus"
+      ]
+    },
+    {
+      "slug": "manual-pelvic-curl",
+      "name": "Pelvic Curl",
+      "file": "pelvic-curl.ts",
+      "bodyPosition": "Supine",
+      "category": "Bridging",
+      "filename": "manual-pelvic-curl.png",
+      "publicPath": "/teaching-diagrams/manual-pelvic-curl.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Pelvic Curl. Pose: lying on back, knees bent, hips lifted in a bridge with feet grounded on the mat, side profile view. Highlight these muscle areas in magenta-pink: rectus abdominis on the front abdominal wall; gluteals on the buttock and outer hip; hamstrings on the back of the thighs; erector spinae along the back; deep lower abdomen and transverse abdominis band; small deep muscles along the lower spine.",
+      "primaryIds": [
+        "abdominals",
+        "glutes",
+        "hamstrings",
+        "spinal-erectors"
+      ],
+      "stabilizerIds": [
+        "transversus-abdominis",
+        "multifidus"
+      ]
+    },
+    {
+      "slug": "manual-pelvic-tilt",
+      "name": "Pelvic Tilt",
+      "file": "pelvic-tilt.ts",
+      "bodyPosition": "Supine",
+      "category": "Breathing / Pelvic Tilts",
+      "filename": "manual-pelvic-tilt.png",
+      "publicPath": "/teaching-diagrams/manual-pelvic-tilt.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Pelvic Tilt. Pose: supine relaxed, knees bent feet flat, ribs soft, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; small deep muscles along the lower spine; obliques along the side waist.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "multifidus",
+        "obliques"
+      ],
+      "stabilizerIds": []
+    },
+    {
+      "slug": "manual-plank-leg-lift",
+      "name": "Plank Leg Lift",
+      "file": "plank-leg-lift.ts",
+      "bodyPosition": "Plank / Closed Chain",
+      "category": "Planking",
+      "filename": "manual-plank-leg-lift.png",
+      "publicPath": "/teaching-diagrams/manual-plank-leg-lift.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Plank Leg Lift. Pose: plank position, one leg lifting behind, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; rectus abdominis on the front abdominal wall; gluteals on the buttock and outer hip; shoulder and scapular stabilizers around the shoulder blade; small deep muscles along the lower spine.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "abdominals",
+        "glutes",
+        "shoulder-stabilizers"
+      ],
+      "stabilizerIds": [
+        "multifidus"
+      ]
+    },
+    {
+      "slug": "manual-plank-shoulder-tap",
+      "name": "Plank Shoulder Tap",
+      "file": "plank-shoulder-tap.ts",
+      "bodyPosition": "Plank / Closed Chain",
+      "category": "Planking",
+      "filename": "manual-plank-shoulder-tap.png",
+      "publicPath": "/teaching-diagrams/manual-plank-shoulder-tap.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Plank Shoulder Tap. Pose: full plank on hands, one hand or knee moving, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; rectus abdominis on the front abdominal wall; gluteals on the buttock and outer hip; shoulder and scapular stabilizers around the shoulder blade; small deep muscles along the lower spine.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "abdominals",
+        "glutes",
+        "shoulder-stabilizers"
+      ],
+      "stabilizerIds": [
+        "multifidus"
+      ]
+    },
+    {
+      "slug": "manual-plank-step-back",
+      "name": "Plank Step Back",
+      "file": "plank-step-back.ts",
+      "bodyPosition": "Plank / Closed Chain",
+      "category": "Planking",
+      "filename": "manual-plank-step-back.png",
+      "publicPath": "/teaching-diagrams/manual-plank-step-back.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Plank Step Back. Pose: full plank on hands and toes, straight body line, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; rectus abdominis on the front abdominal wall; gluteals on the buttock and outer hip; shoulder and scapular stabilizers around the shoulder blade; small deep muscles along the lower spine.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "abdominals",
+        "glutes",
+        "shoulder-stabilizers"
+      ],
+      "stabilizerIds": [
+        "multifidus"
+      ]
+    },
+    {
+      "slug": "manual-prone-arm-lift",
+      "name": "Prone Arm Lift",
+      "file": "prone-arm-lift.ts",
+      "bodyPosition": "Prone / Extension",
+      "category": "Spinal Extension",
+      "filename": "manual-prone-arm-lift.png",
+      "publicPath": "/teaching-diagrams/manual-prone-arm-lift.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Prone Arm Lift. Pose: prone, chest slightly lifted, arms reaching long, side profile. Highlight these muscle areas in magenta-pink: small deep muscles along the lower spine; gluteals on the buttock and outer hip; erector spinae along the back; shoulder and scapular stabilizers around the shoulder blade; deep lower abdomen and transverse abdominis band.",
+      "primaryIds": [
+        "multifidus",
+        "glutes",
+        "spinal-erectors",
+        "shoulder-stabilizers"
+      ],
+      "stabilizerIds": [
+        "transversus-abdominis"
+      ]
+    },
+    {
+      "slug": "manual-prone-breathing",
+      "name": "Prone Breathing",
+      "file": "prone-breathing.ts",
+      "bodyPosition": "Prone / Extension",
+      "category": "Spinal Extension",
+      "filename": "manual-prone-breathing.png",
+      "publicPath": "/teaching-diagrams/manual-prone-breathing.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Prone Breathing. Pose: prone on mat, gentle spinal extension lift, side profile. Highlight these muscle areas in magenta-pink: small deep muscles along the lower spine; gluteals on the buttock and outer hip; erector spinae along the back; deep lower abdomen and transverse abdominis band.",
+      "primaryIds": [
+        "multifidus",
+        "glutes",
+        "spinal-erectors"
+      ],
+      "stabilizerIds": [
+        "transversus-abdominis"
+      ]
+    },
+    {
+      "slug": "manual-quadruped-neutral-hold",
+      "name": "Quadruped Neutral Hold",
+      "file": "quadruped-neutral-hold.ts",
+      "bodyPosition": "Quadruped / Kneeling",
+      "category": "Quadruped / Kneeling",
+      "filename": "manual-quadruped-neutral-hold.png",
+      "publicPath": "/teaching-diagrams/manual-quadruped-neutral-hold.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Quadruped Neutral Hold. Pose: hands and knees quadruped tabletop, neutral spine, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; small deep muscles along the lower spine; shoulder and scapular stabilizers around the shoulder blade.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "multifidus",
+        "shoulder-stabilizers"
+      ],
+      "stabilizerIds": []
+    },
+    {
+      "slug": "manual-rainbow",
+      "name": "Rainbow",
+      "file": "rainbow.ts",
+      "bodyPosition": "Side-Facing",
+      "category": "Side-Lying Hip / Leg Work",
+      "filename": "manual-rainbow.png",
+      "publicPath": "/teaching-diagrams/manual-rainbow.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Rainbow. Pose: side-lying, top leg sweeping in a large arc overhead like a rainbow, side profile. Highlight these muscle areas in magenta-pink: obliques along the side waist; adductors on the inner thighs; gluteals on the buttock and outer hip; deep lower abdomen and transverse abdominis band; small deep muscles along the lower spine.",
+      "primaryIds": [
+        "obliques",
+        "adductors",
+        "glutes"
+      ],
+      "stabilizerIds": [
+        "transversus-abdominis",
+        "multifidus"
+      ]
+    },
+    {
+      "slug": "manual-roll-like-a-ball",
+      "name": "Roll Like a Ball",
+      "file": "roll-like-a-ball.ts",
+      "bodyPosition": "Supine",
+      "category": "Abdominals / Forward Flexion",
+      "filename": "manual-roll-like-a-ball.png",
+      "publicPath": "/teaching-diagrams/manual-roll-like-a-ball.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Roll Like a Ball. Pose: supine curled into a compact ball shape with knees pulled in, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; rectus abdominis on the front abdominal wall; small deep muscles along the lower spine.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "abdominals"
+      ],
+      "stabilizerIds": [
+        "multifidus"
+      ]
+    },
+    {
+      "slug": "manual-roll-up",
+      "name": "Roll Up",
+      "file": "roll-up.ts",
+      "bodyPosition": "Supine",
+      "category": "Abdominals / Forward Flexion",
+      "filename": "manual-roll-up.png",
+      "publicPath": "/teaching-diagrams/manual-roll-up.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Roll Up. Pose: supine rolling up through the spine toward seated, side profile mid-roll. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; rectus abdominis on the front abdominal wall; small deep muscles along the lower spine.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "abdominals"
+      ],
+      "stabilizerIds": [
+        "multifidus"
+      ]
+    },
+    {
+      "slug": "manual-saw",
+      "name": "Saw",
+      "file": "saw.ts",
+      "bodyPosition": "Seated",
+      "category": "Seated Spinal Work",
+      "filename": "manual-saw.png",
+      "publicPath": "/teaching-diagrams/manual-saw.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Saw. Pose: seated tall, legs extended, trunk rotating with arms reaching, three-quarter view. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; small deep muscles along the lower spine; rectus abdominis on the front abdominal wall; obliques along the side waist.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "multifidus",
+        "abdominals",
+        "obliques"
+      ],
+      "stabilizerIds": []
+    },
+    {
+      "slug": "manual-seal",
+      "name": "Seal",
+      "file": "seal.ts",
+      "bodyPosition": "Seated",
+      "category": "Seated Spinal Work",
+      "filename": "manual-seal.png",
+      "publicPath": "/teaching-diagrams/manual-seal.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Seal. Pose: seated balanced on sit bones, knees bent feet lifted, holding ankles, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; small deep muscles along the lower spine; rectus abdominis on the front abdominal wall.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "multifidus",
+        "abdominals"
+      ],
+      "stabilizerIds": []
+    },
+    {
+      "slug": "manual-seated-side-bend",
+      "name": "Seated Side Bend",
+      "file": "seated-side-bend.ts",
+      "bodyPosition": "Seated",
+      "category": "Seated Spinal Work",
+      "filename": "manual-seated-side-bend.png",
+      "publicPath": "/teaching-diagrams/manual-seated-side-bend.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Seated Side Bend. Pose: seated, reaching into lateral flexion, three-quarter view. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; small deep muscles along the lower spine; rectus abdominis on the front abdominal wall; obliques along the side waist.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "multifidus",
+        "abdominals",
+        "obliques"
+      ],
+      "stabilizerIds": []
+    },
+    {
+      "slug": "manual-seated-twist-reach",
+      "name": "Seated Twist Reach",
+      "file": "seated-twist-reach.ts",
+      "bodyPosition": "Seated",
+      "category": "Seated Spinal Work",
+      "filename": "manual-seated-twist-reach.png",
+      "publicPath": "/teaching-diagrams/manual-seated-twist-reach.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Seated Twist Reach. Pose: seated tall, legs extended, trunk rotating with arms reaching, three-quarter view. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; small deep muscles along the lower spine; rectus abdominis on the front abdominal wall; obliques along the side waist.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "multifidus",
+        "abdominals",
+        "obliques"
+      ],
+      "stabilizerIds": []
+    },
+    {
+      "slug": "manual-side-bend",
+      "name": "Side Bend",
+      "file": "side-bend.ts",
+      "bodyPosition": "Side-Facing",
+      "category": "Lateral Flexion",
+      "filename": "manual-side-bend.png",
+      "publicPath": "/teaching-diagrams/manual-side-bend.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Side Bend. Pose: side-lying or side support with body lifted off mat in lateral flexion, side profile. Highlight these muscle areas in magenta-pink: small deep muscles along the lower spine; obliques along the side waist; shoulder and scapular stabilizers around the shoulder blade; deep lower abdomen and transverse abdominis band.",
+      "primaryIds": [
+        "multifidus",
+        "obliques",
+        "shoulder-stabilizers"
+      ],
+      "stabilizerIds": [
+        "transversus-abdominis"
+      ]
+    },
+    {
+      "slug": "manual-side-bend-prep",
+      "name": "Side Bend Prep",
+      "file": "side-bend-prep.ts",
+      "bodyPosition": "Side-Facing",
+      "category": "Lateral Flexion",
+      "filename": "manual-side-bend-prep.png",
+      "publicPath": "/teaching-diagrams/manual-side-bend-prep.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Side Bend Prep. Pose: side-lying or side support with body lifted off mat in lateral flexion, side profile. Highlight these muscle areas in magenta-pink: small deep muscles along the lower spine; obliques along the side waist; shoulder and scapular stabilizers around the shoulder blade; deep lower abdomen and transverse abdominis band.",
+      "primaryIds": [
+        "multifidus",
+        "obliques",
+        "shoulder-stabilizers"
+      ],
+      "stabilizerIds": [
+        "transversus-abdominis"
+      ]
+    },
+    {
+      "slug": "manual-side-lying-alignment-hold",
+      "name": "Side-Lying Alignment Hold",
+      "file": "side-lying-alignment-hold.ts",
+      "bodyPosition": "Side-Facing",
+      "category": "Side-Lying Hip / Leg Work",
+      "filename": "manual-side-lying-alignment-hold.png",
+      "publicPath": "/teaching-diagrams/manual-side-lying-alignment-hold.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Side-Lying Alignment Hold. Pose: side-lying long line on mat, pelvis stacked, bottom arm supporting head, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; obliques along the side waist; adductors on the inner thighs; gluteals on the buttock and outer hip; small deep muscles along the lower spine.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "obliques",
+        "adductors",
+        "glutes"
+      ],
+      "stabilizerIds": [
+        "multifidus"
+      ]
+    },
+    {
+      "slug": "manual-side-lying-bicycle",
+      "name": "Side-Lying Bicycle",
+      "file": "side-lying-bicycle.ts",
+      "bodyPosition": "Side-Facing",
+      "category": "Side-Lying Hip / Leg Work",
+      "filename": "manual-side-lying-bicycle.png",
+      "publicPath": "/teaching-diagrams/manual-side-lying-bicycle.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Side-Lying Bicycle. Pose: side-lying, top leg moving through controlled hip patterns, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; obliques along the side waist; adductors on the inner thighs; gluteals on the buttock and outer hip; small deep muscles along the lower spine.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "obliques",
+        "adductors",
+        "glutes"
+      ],
+      "stabilizerIds": [
+        "multifidus"
+      ]
+    },
+    {
+      "slug": "manual-side-lying-circles",
+      "name": "Side-Lying Circles",
+      "file": "side-lying-circles.ts",
+      "bodyPosition": "Side-Facing",
+      "category": "Side-Lying Hip / Leg Work",
+      "filename": "manual-side-lying-circles.png",
+      "publicPath": "/teaching-diagrams/manual-side-lying-circles.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Side-Lying Circles. Pose: side-lying, top leg drawing a small circle in the air, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; obliques along the side waist; adductors on the inner thighs; gluteals on the buttock and outer hip; small deep muscles along the lower spine.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "obliques",
+        "adductors",
+        "glutes"
+      ],
+      "stabilizerIds": [
+        "multifidus"
+      ]
+    },
+    {
+      "slug": "manual-side-lying-developpe",
+      "name": "Side-Lying Developpé",
+      "file": "side-lying-developpe.ts",
+      "bodyPosition": "Side-Facing",
+      "category": "Side-Lying Hip / Leg Work",
+      "filename": "manual-side-lying-developpe.png",
+      "publicPath": "/teaching-diagrams/manual-side-lying-developpe.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Side-Lying Developpé. Pose: side-lying, top leg moving through controlled hip patterns, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; obliques along the side waist; adductors on the inner thighs; gluteals on the buttock and outer hip; small deep muscles along the lower spine.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "obliques",
+        "adductors",
+        "glutes"
+      ],
+      "stabilizerIds": [
+        "multifidus"
+      ]
+    },
+    {
+      "slug": "manual-side-lying-front-back-kick",
+      "name": "Side-Lying Front / Back Kick",
+      "file": "side-lying-front-back-kick.ts",
+      "bodyPosition": "Side-Facing",
+      "category": "Side-Lying Hip / Leg Work",
+      "filename": "manual-side-lying-front-back-kick.png",
+      "publicPath": "/teaching-diagrams/manual-side-lying-front-back-kick.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Side-Lying Front / Back Kick. Pose: side-lying, top leg lifted in open chain hip work, pelvis stacked, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; obliques along the side waist; adductors on the inner thighs; gluteals on the buttock and outer hip; small deep muscles along the lower spine.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "obliques",
+        "adductors",
+        "glutes"
+      ],
+      "stabilizerIds": [
+        "multifidus"
+      ]
+    },
+    {
+      "slug": "manual-side-lying-inner-thigh-lift",
+      "name": "Side-Lying Inner Thigh Lift",
+      "file": "side-lying-inner-thigh-lift.ts",
+      "bodyPosition": "Side-Facing",
+      "category": "Side-Lying Hip / Leg Work",
+      "filename": "manual-side-lying-inner-thigh-lift.png",
+      "publicPath": "/teaching-diagrams/manual-side-lying-inner-thigh-lift.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Side-Lying Inner Thigh Lift. Pose: side-lying, top leg lifted in open chain hip work, pelvis stacked, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; obliques along the side waist; adductors on the inner thighs; gluteals on the buttock and outer hip; small deep muscles along the lower spine.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "obliques",
+        "adductors",
+        "glutes"
+      ],
+      "stabilizerIds": [
+        "multifidus"
+      ]
+    },
+    {
+      "slug": "manual-side-lying-leg-beats",
+      "name": "Side-Lying Leg Beats",
+      "file": "side-lying-leg-beats.ts",
+      "bodyPosition": "Side-Facing",
+      "category": "Side-Lying Hip / Leg Work",
+      "filename": "manual-side-lying-leg-beats.png",
+      "publicPath": "/teaching-diagrams/manual-side-lying-leg-beats.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Side-Lying Leg Beats. Pose: side-lying in one long line, head propped on bottom arm, both legs extended and slightly lifted, small motion arcs at ankles suggesting leg beats, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; obliques along the side waist; adductors on the inner thighs; gluteals on the buttock and outer hip; small deep muscles along the lower spine.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "obliques",
+        "adductors",
+        "glutes"
+      ],
+      "stabilizerIds": [
+        "multifidus"
+      ]
+    },
+    {
+      "slug": "manual-side-lying-leg-lift",
+      "name": "Side-Lying Leg Lift",
+      "file": "side-lying-leg-lift.ts",
+      "bodyPosition": "Side-Facing",
+      "category": "Side-Lying Hip / Leg Work",
+      "filename": "manual-side-lying-leg-lift.png",
+      "publicPath": "/teaching-diagrams/manual-side-lying-leg-lift.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Side-Lying Leg Lift. Pose: side-lying, top leg lifted in open chain hip work, pelvis stacked, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; obliques along the side waist; adductors on the inner thighs; gluteals on the buttock and outer hip; small deep muscles along the lower spine.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "obliques",
+        "adductors",
+        "glutes"
+      ],
+      "stabilizerIds": [
+        "multifidus"
+      ]
+    },
+    {
+      "slug": "manual-side-lying-lower-lift",
+      "name": "Side-Lying Lower Lift",
+      "file": "side-lying-lower-lift.ts",
+      "bodyPosition": "Side-Facing",
+      "category": "Side-Lying Hip / Leg Work",
+      "filename": "manual-side-lying-lower-lift.png",
+      "publicPath": "/teaching-diagrams/manual-side-lying-lower-lift.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Side-Lying Lower Lift. Pose: side-lying, top leg lifted in open chain hip work, pelvis stacked, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; obliques along the side waist; adductors on the inner thighs; gluteals on the buttock and outer hip; small deep muscles along the lower spine.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "obliques",
+        "adductors",
+        "glutes"
+      ],
+      "stabilizerIds": [
+        "multifidus"
+      ]
+    },
+    {
+      "slug": "manual-single-leg-kick",
+      "name": "Single Leg Kick",
+      "file": "single-leg-kick.ts",
+      "bodyPosition": "Prone / Extension",
+      "category": "Spinal Extension",
+      "filename": "manual-single-leg-kick.png",
+      "publicPath": "/teaching-diagrams/manual-single-leg-kick.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Single Leg Kick. Pose: prone, knees bent kicking heels toward glutes, side profile. Highlight these muscle areas in magenta-pink: small deep muscles along the lower spine; gluteals on the buttock and outer hip; hamstrings on the back of the thighs; erector spinae along the back; deep lower abdomen and transverse abdominis band.",
+      "primaryIds": [
+        "multifidus",
+        "glutes",
+        "hamstrings",
+        "spinal-erectors"
+      ],
+      "stabilizerIds": [
+        "transversus-abdominis"
+      ]
+    },
+    {
+      "slug": "manual-single-leg-stretch",
+      "name": "Single Leg Stretch",
+      "file": "single-leg-stretch.ts",
+      "bodyPosition": "Supine",
+      "category": "Abdominals / Forward Flexion",
+      "filename": "manual-single-leg-stretch.png",
+      "publicPath": "/teaching-diagrams/manual-single-leg-stretch.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Single Leg Stretch. Pose: supine curled up, legs extended or cycling in the air, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; rectus abdominis on the front abdominal wall; hip flexors at the front of the hip; small deep muscles along the lower spine.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "abdominals",
+        "hip-flexors"
+      ],
+      "stabilizerIds": [
+        "multifidus"
+      ]
+    },
+    {
+      "slug": "manual-single-straight-leg-stretch",
+      "name": "Single Straight Leg Stretch",
+      "file": "single-straight-leg-stretch.ts",
+      "bodyPosition": "Supine",
+      "category": "Abdominals / Forward Flexion",
+      "filename": "manual-single-straight-leg-stretch.png",
+      "publicPath": "/teaching-diagrams/manual-single-straight-leg-stretch.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Single Straight Leg Stretch. Pose: supine curled up, legs extended or cycling in the air, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; rectus abdominis on the front abdominal wall; hip flexors at the front of the hip; small deep muscles along the lower spine.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "abdominals",
+        "hip-flexors"
+      ],
+      "stabilizerIds": [
+        "multifidus"
+      ]
+    },
+    {
+      "slug": "manual-spine-stretch-forward",
+      "name": "Spine Stretch Forward",
+      "file": "spine-stretch-forward.ts",
+      "bodyPosition": "Seated",
+      "category": "Seated Spinal Work",
+      "filename": "manual-spine-stretch-forward.png",
+      "publicPath": "/teaching-diagrams/manual-spine-stretch-forward.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Spine Stretch Forward. Pose: seated tall on mat, legs extended forward, spine long, side profile. Highlight these muscle areas in magenta-pink: small deep muscles along the lower spine; rectus abdominis on the front abdominal wall; deep lower abdomen and transverse abdominis band.",
+      "primaryIds": [
+        "multifidus",
+        "abdominals"
+      ],
+      "stabilizerIds": [
+        "transversus-abdominis"
+      ]
+    },
+    {
+      "slug": "manual-spine-twist",
+      "name": "Spine Twist",
+      "file": "spine-twist.ts",
+      "bodyPosition": "Seated",
+      "category": "Seated Spinal Work",
+      "filename": "manual-spine-twist.png",
+      "publicPath": "/teaching-diagrams/manual-spine-twist.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Spine Twist. Pose: seated tall, legs extended, trunk rotating with arms reaching, three-quarter view. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; small deep muscles along the lower spine; rectus abdominis on the front abdominal wall; obliques along the side waist.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "multifidus",
+        "abdominals",
+        "obliques"
+      ],
+      "stabilizerIds": []
+    },
+    {
+      "slug": "manual-standing-balance-reach",
+      "name": "Standing Balance Reach",
+      "file": "standing-balance-reach.ts",
+      "bodyPosition": "Standing Integration",
+      "category": "Standing Integration",
+      "filename": "manual-standing-balance-reach.png",
+      "publicPath": "/teaching-diagrams/manual-standing-balance-reach.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Standing Balance Reach. Pose: standing on one leg, opposite arm reaching, balance pose, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; small deep muscles along the lower spine; gluteals on the buttock and outer hip; calves on the lower legs.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "multifidus",
+        "glutes",
+        "calves"
+      ],
+      "stabilizerIds": []
+    },
+    {
+      "slug": "manual-standing-lunge",
+      "name": "Standing Lunge",
+      "file": "standing-lunge.ts",
+      "bodyPosition": "Standing Integration",
+      "category": "Standing Integration",
+      "filename": "manual-standing-lunge.png",
+      "publicPath": "/teaching-diagrams/manual-standing-lunge.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Standing Lunge. Pose: standing lunge or squat position, upright trunk, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; small deep muscles along the lower spine; quadriceps on the front of the thighs; gluteals on the buttock and outer hip; hamstrings on the back of the thighs.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "multifidus",
+        "quadriceps",
+        "glutes",
+        "hamstrings"
+      ],
+      "stabilizerIds": []
+    },
+    {
+      "slug": "manual-standing-roll-down",
+      "name": "Standing Roll Down",
+      "file": "standing-roll-down.ts",
+      "bodyPosition": "Standing Integration",
+      "category": "Standing Integration",
+      "filename": "manual-standing-roll-down.png",
+      "publicPath": "/teaching-diagrams/manual-standing-roll-down.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Standing Roll Down. Pose: standing, spine rolling down toward the floor, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; small deep muscles along the lower spine; gluteals on the buttock and outer hip.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "multifidus",
+        "glutes"
+      ],
+      "stabilizerIds": []
+    },
+    {
+      "slug": "manual-standing-rotation",
+      "name": "Standing Rotation",
+      "file": "standing-rotation.ts",
+      "bodyPosition": "Standing Integration",
+      "category": "Standing Integration",
+      "filename": "manual-standing-rotation.png",
+      "publicPath": "/teaching-diagrams/manual-standing-rotation.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Standing Rotation. Pose: standing, trunk rotating or side bending with arms reaching, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; small deep muscles along the lower spine; obliques along the side waist; gluteals on the buttock and outer hip.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "multifidus",
+        "obliques",
+        "glutes"
+      ],
+      "stabilizerIds": []
+    },
+    {
+      "slug": "manual-standing-side-bend",
+      "name": "Standing Side Bend",
+      "file": "standing-side-bend.ts",
+      "bodyPosition": "Standing Integration",
+      "category": "Standing Integration",
+      "filename": "manual-standing-side-bend.png",
+      "publicPath": "/teaching-diagrams/manual-standing-side-bend.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Standing Side Bend. Pose: standing, trunk rotating or side bending with arms reaching, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; small deep muscles along the lower spine; obliques along the side waist; gluteals on the buttock and outer hip.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "multifidus",
+        "obliques",
+        "glutes"
+      ],
+      "stabilizerIds": []
+    },
+    {
+      "slug": "manual-standing-squat",
+      "name": "Standing Squat",
+      "file": "standing-squat.ts",
+      "bodyPosition": "Standing Integration",
+      "category": "Standing Integration",
+      "filename": "manual-standing-squat.png",
+      "publicPath": "/teaching-diagrams/manual-standing-squat.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Standing Squat. Pose: standing lunge or squat position, upright trunk, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; small deep muscles along the lower spine; quadriceps on the front of the thighs; gluteals on the buttock and outer hip; hamstrings on the back of the thighs.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "multifidus",
+        "quadriceps",
+        "glutes",
+        "hamstrings"
+      ],
+      "stabilizerIds": []
+    },
+    {
+      "slug": "manual-star-side-plank-variation",
+      "name": "Star / Side Plank Variation",
+      "file": "star-side-plank-variation.ts",
+      "bodyPosition": "Side-Facing",
+      "category": "Lateral Flexion",
+      "filename": "manual-star-side-plank-variation.png",
+      "publicPath": "/teaching-diagrams/manual-star-side-plank-variation.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Star / Side Plank Variation. Pose: side-lying or side support with body lifted off mat in lateral flexion, side profile. Highlight these muscle areas in magenta-pink: small deep muscles along the lower spine; obliques along the side waist; shoulder and scapular stabilizers around the shoulder blade; deep lower abdomen and transverse abdominis band.",
+      "primaryIds": [
+        "multifidus",
+        "obliques",
+        "shoulder-stabilizers"
+      ],
+      "stabilizerIds": [
+        "transversus-abdominis"
+      ]
+    },
+    {
+      "slug": "manual-swan",
+      "name": "Swan",
+      "file": "swan.ts",
+      "bodyPosition": "Prone / Extension",
+      "category": "Spinal Extension",
+      "filename": "manual-swan.png",
+      "publicPath": "/teaching-diagrams/manual-swan.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Swan. Pose: prone, upper chest and head lifting in extension supported on hands or forearms, side profile. Highlight these muscle areas in magenta-pink: small deep muscles along the lower spine; gluteals on the buttock and outer hip; erector spinae along the back; shoulder and scapular stabilizers around the shoulder blade; deep lower abdomen and transverse abdominis band.",
+      "primaryIds": [
+        "multifidus",
+        "glutes",
+        "spinal-erectors",
+        "shoulder-stabilizers"
+      ],
+      "stabilizerIds": [
+        "transversus-abdominis"
+      ]
+    },
+    {
+      "slug": "manual-swan-prep",
+      "name": "Swan Prep",
+      "file": "swan-prep.ts",
+      "bodyPosition": "Prone / Extension",
+      "category": "Spinal Extension",
+      "filename": "manual-swan-prep.png",
+      "publicPath": "/teaching-diagrams/manual-swan-prep.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Swan Prep. Pose: prone, upper chest and head lifting in extension supported on hands or forearms, side profile. Highlight these muscle areas in magenta-pink: small deep muscles along the lower spine; gluteals on the buttock and outer hip; erector spinae along the back; shoulder and scapular stabilizers around the shoulder blade; deep lower abdomen and transverse abdominis band.",
+      "primaryIds": [
+        "multifidus",
+        "glutes",
+        "spinal-erectors",
+        "shoulder-stabilizers"
+      ],
+      "stabilizerIds": [
+        "transversus-abdominis"
+      ]
+    },
+    {
+      "slug": "manual-swimming",
+      "name": "Swimming",
+      "file": "swimming.ts",
+      "bodyPosition": "Prone / Extension",
+      "category": "Spinal Extension",
+      "filename": "manual-swimming.png",
+      "publicPath": "/teaching-diagrams/manual-swimming.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Swimming. Pose: prone, opposite arm and leg lifted in swimming pattern, side profile. Highlight these muscle areas in magenta-pink: small deep muscles along the lower spine; gluteals on the buttock and outer hip; erector spinae along the back; shoulder and scapular stabilizers around the shoulder blade; deep lower abdomen and transverse abdominis band.",
+      "primaryIds": [
+        "multifidus",
+        "glutes",
+        "spinal-erectors",
+        "shoulder-stabilizers"
+      ],
+      "stabilizerIds": [
+        "transversus-abdominis"
+      ]
+    },
+    {
+      "slug": "manual-swimming-prep",
+      "name": "Swimming Prep",
+      "file": "swimming-prep.ts",
+      "bodyPosition": "Prone / Extension",
+      "category": "Spinal Extension",
+      "filename": "manual-swimming-prep.png",
+      "publicPath": "/teaching-diagrams/manual-swimming-prep.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Swimming Prep. Pose: prone, opposite arm and leg lifted in swimming pattern, side profile. Highlight these muscle areas in magenta-pink: small deep muscles along the lower spine; gluteals on the buttock and outer hip; erector spinae along the back; shoulder and scapular stabilizers around the shoulder blade; deep lower abdomen and transverse abdominis band.",
+      "primaryIds": [
+        "multifidus",
+        "glutes",
+        "spinal-erectors",
+        "shoulder-stabilizers"
+      ],
+      "stabilizerIds": [
+        "transversus-abdominis"
+      ]
+    },
+    {
+      "slug": "manual-tabletop-hold",
+      "name": "Tabletop Hold",
+      "file": "tabletop-hold.ts",
+      "bodyPosition": "Supine",
+      "category": "Breathing / Pelvic Tilts",
+      "filename": "manual-tabletop-hold.png",
+      "publicPath": "/teaching-diagrams/manual-tabletop-hold.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Tabletop Hold. Pose: supine, knees in tabletop, one foot lowering toward the mat, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; small deep muscles along the lower spine; hip flexors at the front of the hip.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "multifidus",
+        "hip-flexors"
+      ],
+      "stabilizerIds": []
+    },
+    {
+      "slug": "manual-the-hundred",
+      "name": "The Hundred",
+      "file": "the-hundred.ts",
+      "bodyPosition": "Supine",
+      "category": "Abdominals / Forward Flexion",
+      "filename": "manual-the-hundred.png",
+      "publicPath": "/teaching-diagrams/manual-the-hundred.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: The Hundred. Pose: lying on back, head and shoulders lifted, knees in tabletop, arms reaching long beside the hips, side profile. Highlight these muscle areas in magenta-pink: rectus abdominis on the front abdominal wall; obliques along the side waist; hip flexors at the front of the hip; deep lower abdomen and transverse abdominis band; small deep muscles along the lower spine; shoulder and scapular stabilizers around the shoulder blade.",
+      "primaryIds": [
+        "abdominals",
+        "obliques",
+        "hip-flexors"
+      ],
+      "stabilizerIds": [
+        "transversus-abdominis",
+        "multifidus",
+        "shoulder-stabilizers"
+      ]
+    },
+    {
+      "slug": "manual-toe-taps",
+      "name": "Toe Taps",
+      "file": "toe-taps.ts",
+      "bodyPosition": "Supine",
+      "category": "Breathing / Pelvic Tilts",
+      "filename": "manual-toe-taps.png",
+      "publicPath": "/teaching-diagrams/manual-toe-taps.png",
+      "prompt": "Clean instructional exercise diagram in the style of classic fitness manual line art, on a plain white background. A simple outlined human figure drawn in thin black line art (minimal detail, smooth contour outline, no face details) on a thin black-outlined exercise mat. Selected muscle groups highlighted inside the body with smooth magenta-pink shading like vintage muscle-activation diagrams; all other regions plain white with black outline. No text, no labels, no letters anywhere. Flat print-like illustration, crisp thin black lines. Exercise: Toe Taps. Pose: supine, knees in tabletop, one foot lowering toward the mat, side profile. Highlight these muscle areas in magenta-pink: deep lower abdomen and transverse abdominis band; small deep muscles along the lower spine; hip flexors at the front of the hip.",
+      "primaryIds": [
+        "transversus-abdominis",
+        "multifidus",
+        "hip-flexors"
+      ],
+      "stabilizerIds": []
+    }
+  ]
+}

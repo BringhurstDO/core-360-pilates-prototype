@@ -52,4 +52,17 @@ export const manualFullPlank: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the plank / closed chain planking block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-full-plank-teaching",
+      title: "Full Plank",
+      description: "Generated muscle-emphasis teaching diagram for Full Plank.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-full-plank.png",
+      imageAlt: "Full Plank teaching diagram with highlighted muscles"
+    }
+  }
 };

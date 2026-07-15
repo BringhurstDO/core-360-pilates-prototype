@@ -52,4 +52,17 @@ export const manualFireHydrant: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the quadruped / kneeling quadruped / kneeling block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-fire-hydrant-teaching",
+      title: "Fire Hydrant",
+      description: "Generated muscle-emphasis teaching diagram for Fire Hydrant.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-fire-hydrant.png",
+      imageAlt: "Fire Hydrant teaching diagram with highlighted muscles"
+    }
+  }
 };

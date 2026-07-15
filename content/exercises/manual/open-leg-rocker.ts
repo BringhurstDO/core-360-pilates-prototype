@@ -52,4 +52,17 @@ export const manualOpenLegRocker: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the supine abdominals / forward flexion block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-open-leg-rocker-teaching",
+      title: "Open Leg Rocker",
+      description: "Generated muscle-emphasis teaching diagram for Open Leg Rocker.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-open-leg-rocker.png",
+      imageAlt: "Open Leg Rocker teaching diagram with highlighted muscles"
+    }
+  }
 };

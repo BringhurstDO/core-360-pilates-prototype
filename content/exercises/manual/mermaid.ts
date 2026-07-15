@@ -51,4 +51,17 @@ export const manualMermaid: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the side-facing seated lateral flexion block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-mermaid-teaching",
+      title: "Mermaid",
+      description: "Generated muscle-emphasis teaching diagram for Mermaid.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-mermaid.png",
+      imageAlt: "Mermaid teaching diagram with highlighted muscles"
+    }
+  }
 };

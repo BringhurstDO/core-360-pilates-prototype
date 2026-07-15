@@ -51,4 +51,17 @@ export const manualForearmPlank: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the plank / closed chain planking block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-forearm-plank-teaching",
+      title: "Forearm Plank",
+      description: "Generated muscle-emphasis teaching diagram for Forearm Plank.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-forearm-plank.png",
+      imageAlt: "Forearm Plank teaching diagram with highlighted muscles"
+    }
+  }
 };

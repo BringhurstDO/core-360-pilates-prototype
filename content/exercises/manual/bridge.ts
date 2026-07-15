@@ -52,4 +52,17 @@ export const manualBridge: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the supine bridging block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-bridge-teaching",
+      title: "Bridge",
+      description: "Generated muscle-emphasis teaching diagram for Bridge.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-bridge.png",
+      imageAlt: "Bridge teaching diagram with highlighted muscles"
+    }
+  }
 };

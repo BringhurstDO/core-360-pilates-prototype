@@ -52,4 +52,17 @@ export const manualCatCow: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the quadruped / kneeling quadruped / kneeling block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-cat-cow-teaching",
+      title: "Cat Cow",
+      description: "Generated muscle-emphasis teaching diagram for Cat Cow.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-cat-cow.png",
+      imageAlt: "Cat Cow teaching diagram with highlighted muscles"
+    }
+  }
 };

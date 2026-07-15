@@ -6,7 +6,11 @@
     "dev": "node --no-experimental-webstorage node_modules/next/dist/bin/next dev --port 3004",
     "build": "node --no-experimental-webstorage node_modules/next/dist/bin/next build",
     "start": "node --no-experimental-webstorage node_modules/next/dist/bin/next start",
-    "lint": "node --no-experimental-webstorage node_modules/next/dist/bin/next lint"
+    "lint": "node --no-experimental-webstorage node_modules/next/dist/bin/next lint",
+    "diagrams:manifest": "node scripts/build-teaching-diagram-manifest.mjs",
+    "diagrams:copy": "node scripts/copy-teaching-diagrams.mjs",
+    "diagrams:wire": "node scripts/wire-teaching-diagrams.mjs",
+    "diagrams:status": "node -e \"const m=require('./scripts/teaching-diagram-manifest.json');const fs=require('fs');const p='public/teaching-diagrams';const have=m.entries.filter(e=>fs.existsSync(p+'/'+e.filename)).length;console.log(have+'/'+m.entries.length+' diagrams ready');\""
   },
   "dependencies": {
     "next": "15.5.18",

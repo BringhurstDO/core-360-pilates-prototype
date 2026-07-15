@@ -52,4 +52,17 @@ export const manualKneePlank: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the plank / closed chain planking block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-knee-plank-teaching",
+      title: "Knee Plank",
+      description: "Generated muscle-emphasis teaching diagram for Knee Plank.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-knee-plank.png",
+      imageAlt: "Knee Plank teaching diagram with highlighted muscles"
+    }
+  }
 };

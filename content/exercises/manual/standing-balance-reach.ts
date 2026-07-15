@@ -52,4 +52,17 @@ export const manualStandingBalanceReach: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the standing integration standing integration block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-standing-balance-reach-teaching",
+      title: "Standing Balance Reach",
+      description: "Generated muscle-emphasis teaching diagram for Standing Balance Reach.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-standing-balance-reach.png",
+      imageAlt: "Standing Balance Reach teaching diagram with highlighted muscles"
+    }
+  }
 };

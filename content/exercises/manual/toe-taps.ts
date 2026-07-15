@@ -52,4 +52,17 @@ export const manualToeTaps: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the supine breathing / pelvic tilts block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-toe-taps-teaching",
+      title: "Toe Taps",
+      description: "Generated muscle-emphasis teaching diagram for Toe Taps.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-toe-taps.png",
+      imageAlt: "Toe Taps teaching diagram with highlighted muscles"
+    }
+  }
 };

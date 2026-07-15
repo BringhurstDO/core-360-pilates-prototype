@@ -52,4 +52,17 @@ export const manualProneArmLift: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the prone / extension spinal extension block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-prone-arm-lift-teaching",
+      title: "Prone Arm Lift",
+      description: "Generated muscle-emphasis teaching diagram for Prone Arm Lift.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-prone-arm-lift.png",
+      imageAlt: "Prone Arm Lift teaching diagram with highlighted muscles"
+    }
+  }
 };

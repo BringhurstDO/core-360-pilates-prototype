@@ -52,4 +52,17 @@ export const manualBridgeWithMarch: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the supine bridging block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-bridge-with-march-teaching",
+      title: "Bridge with March",
+      description: "Generated muscle-emphasis teaching diagram for Bridge with March.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-bridge-with-march.png",
+      imageAlt: "Bridge with March teaching diagram with highlighted muscles"
+    }
+  }
 };

@@ -51,4 +51,17 @@ export const manualRainbow: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the side-facing side-lying hip / leg work block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-rainbow-teaching",
+      title: "Rainbow",
+      description: "Generated muscle-emphasis teaching diagram for Rainbow.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-rainbow.png",
+      imageAlt: "Rainbow teaching diagram with highlighted muscles"
+    }
+  }
 };

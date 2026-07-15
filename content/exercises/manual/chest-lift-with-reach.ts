@@ -52,4 +52,17 @@ export const manualChestLiftWithReach: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the supine abdominals / forward flexion block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-chest-lift-with-reach-teaching",
+      title: "Chest Lift with Reach",
+      description: "Generated muscle-emphasis teaching diagram for Chest Lift with Reach.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-chest-lift-with-reach.png",
+      imageAlt: "Chest Lift with Reach teaching diagram with highlighted muscles"
+    }
+  }
 };

@@ -52,4 +52,17 @@ export const manualTabletopHold: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the supine breathing / pelvic tilts block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-tabletop-hold-teaching",
+      title: "Tabletop Hold",
+      description: "Generated muscle-emphasis teaching diagram for Tabletop Hold.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-tabletop-hold.png",
+      imageAlt: "Tabletop Hold teaching diagram with highlighted muscles"
+    }
+  }
 };

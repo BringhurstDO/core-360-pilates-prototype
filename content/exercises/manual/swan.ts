@@ -52,4 +52,17 @@ export const manualSwan: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the prone / extension spinal extension block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-swan-teaching",
+      title: "Swan",
+      description: "Generated muscle-emphasis teaching diagram for Swan.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-swan.png",
+      imageAlt: "Swan teaching diagram with highlighted muscles"
+    }
+  }
 };

@@ -52,4 +52,17 @@ export const manualDoubleLegKick: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the prone / extension spinal extension block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-double-leg-kick-teaching",
+      title: "Double Leg Kick",
+      description: "Generated muscle-emphasis teaching diagram for Double Leg Kick.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-double-leg-kick.png",
+      imageAlt: "Double Leg Kick teaching diagram with highlighted muscles"
+    }
+  }
 };

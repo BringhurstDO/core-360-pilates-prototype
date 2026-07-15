@@ -52,4 +52,17 @@ export const manualNeutralPelvisHold: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the supine breathing / pelvic tilts block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-neutral-pelvis-hold-teaching",
+      title: "Neutral Pelvis Hold",
+      description: "Generated muscle-emphasis teaching diagram for Neutral Pelvis Hold.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-neutral-pelvis-hold.png",
+      imageAlt: "Neutral Pelvis Hold teaching diagram with highlighted muscles"
+    }
+  }
 };

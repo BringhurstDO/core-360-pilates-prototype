@@ -51,4 +51,17 @@ export const manualLateralBreathing: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the supine breathing / pelvic tilts block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-lateral-breathing-teaching",
+      title: "Lateral Breathing",
+      description: "Generated muscle-emphasis teaching diagram for Lateral Breathing.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-lateral-breathing.png",
+      imageAlt: "Lateral Breathing teaching diagram with highlighted muscles"
+    }
+  }
 };

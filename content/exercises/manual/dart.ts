@@ -52,4 +52,17 @@ export const manualDart: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the prone / extension spinal extension block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-dart-teaching",
+      title: "Dart",
+      description: "Generated muscle-emphasis teaching diagram for Dart.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-dart.png",
+      imageAlt: "Dart teaching diagram with highlighted muscles"
+    }
+  }
 };

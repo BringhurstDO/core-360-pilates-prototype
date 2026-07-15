@@ -52,4 +52,17 @@ export const manualSideLyingLegBeats: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the side-facing side-lying hip / leg work block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-side-lying-leg-beats-teaching",
+      title: "Side-Lying Leg Beats",
+      description: "Generated muscle-emphasis teaching diagram for Side-Lying Leg Beats.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-side-lying-leg-beats.png",
+      imageAlt: "Side-Lying Leg Beats teaching diagram with highlighted muscles"
+    }
+  }
 };
