@@ -29,6 +29,9 @@ export function ExerciseTeachingDiagram({
     .map((muscle) => formatMuscleGroup(muscle));
   const equipment = exercise.classification.equipment.join(", ");
 
+  const isUploadedDiagram =
+    diagram?.kind === "uploaded" && Boolean(diagram.imageSrc);
+
   return (
     <section className="info-card teaching-diagram-card">
       <div className="teaching-diagram-header">
@@ -40,10 +43,12 @@ export function ExerciseTeachingDiagram({
               "Position-aware movement diagram combining body position, a cue arrow, and anatomy emphasis."}
           </p>
         </div>
-        <PrototypeLabel>Diagram placeholder</PrototypeLabel>
+        {!isUploadedDiagram ? (
+          <PrototypeLabel>Diagram placeholder</PrototypeLabel>
+        ) : null}
       </div>
 
-      {diagram?.kind === "uploaded" && diagram.imageSrc ? (
+      {isUploadedDiagram ? (
         <img
           className="teaching-diagram-image"
           src={diagram.imageSrc}
