@@ -52,4 +52,17 @@ export const manualSeatedTwistReach: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the seated seated spinal work block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-seated-twist-reach-teaching",
+      title: "Seated Twist Reach",
+      description: "Generated muscle-emphasis teaching diagram for Seated Twist Reach.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-seated-twist-reach.png",
+      imageAlt: "Seated Twist Reach teaching diagram with highlighted muscles"
+    }
+  }
 };

@@ -52,4 +52,17 @@ export const manualKneelingArmReach: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the quadruped / kneeling quadruped / kneeling block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-kneeling-arm-reach-teaching",
+      title: "Kneeling Arm Reach",
+      description: "Generated muscle-emphasis teaching diagram for Kneeling Arm Reach.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-kneeling-arm-reach.png",
+      imageAlt: "Kneeling Arm Reach teaching diagram with highlighted muscles"
+    }
+  }
 };

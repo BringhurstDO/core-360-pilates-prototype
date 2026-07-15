@@ -52,4 +52,17 @@ export const manualPlankStepBack: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the plank / closed chain planking block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-plank-step-back-teaching",
+      title: "Plank Step Back",
+      description: "Generated muscle-emphasis teaching diagram for Plank Step Back.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-plank-step-back.png",
+      imageAlt: "Plank Step Back teaching diagram with highlighted muscles"
+    }
+  }
 };

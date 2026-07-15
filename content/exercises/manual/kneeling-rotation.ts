@@ -52,4 +52,17 @@ export const manualKneelingRotation: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the quadruped / kneeling quadruped / kneeling block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-kneeling-rotation-teaching",
+      title: "Kneeling Rotation",
+      description: "Generated muscle-emphasis teaching diagram for Kneeling Rotation.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-kneeling-rotation.png",
+      imageAlt: "Kneeling Rotation teaching diagram with highlighted muscles"
+    }
+  }
 };

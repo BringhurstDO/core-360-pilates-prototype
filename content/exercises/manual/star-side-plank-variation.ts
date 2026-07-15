@@ -52,4 +52,17 @@ export const manualStarSidePlankVariation: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the side-facing lateral flexion block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-star-side-plank-variation-teaching",
+      title: "Star / Side Plank Variation",
+      description: "Generated muscle-emphasis teaching diagram for Star / Side Plank Variation.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-star-side-plank-variation.png",
+      imageAlt: "Star / Side Plank Variation teaching diagram with highlighted muscles"
+    }
+  }
 };

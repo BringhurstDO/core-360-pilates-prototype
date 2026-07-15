@@ -52,4 +52,17 @@ export const manualPlankShoulderTap: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the plank / closed chain planking block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-plank-shoulder-tap-teaching",
+      title: "Plank Shoulder Tap",
+      description: "Generated muscle-emphasis teaching diagram for Plank Shoulder Tap.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-plank-shoulder-tap.png",
+      imageAlt: "Plank Shoulder Tap teaching diagram with highlighted muscles"
+    }
+  }
 };

@@ -52,4 +52,17 @@ export const manualSideLyingDeveloppe: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the side-facing side-lying hip / leg work block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-side-lying-developpe-teaching",
+      title: "Side-Lying Developpé",
+      description: "Generated muscle-emphasis teaching diagram for Side-Lying Developpé.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-side-lying-developpe.png",
+      imageAlt: "Side-Lying Developpé teaching diagram with highlighted muscles"
+    }
+  }
 };

@@ -52,4 +52,17 @@ export const manualStandingLunge: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the standing integration standing integration block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-standing-lunge-teaching",
+      title: "Standing Lunge",
+      description: "Generated muscle-emphasis teaching diagram for Standing Lunge.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-standing-lunge.png",
+      imageAlt: "Standing Lunge teaching diagram with highlighted muscles"
+    }
+  }
 };

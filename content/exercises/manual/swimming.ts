@@ -52,4 +52,17 @@ export const manualSwimming: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the prone / extension spinal extension block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-swimming-teaching",
+      title: "Swimming",
+      description: "Generated muscle-emphasis teaching diagram for Swimming.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-swimming.png",
+      imageAlt: "Swimming teaching diagram with highlighted muscles"
+    }
+  }
 };

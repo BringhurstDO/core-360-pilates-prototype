@@ -52,4 +52,17 @@ export const manualSideLyingBicycle: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the side-facing side-lying hip / leg work block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-side-lying-bicycle-teaching",
+      title: "Side-Lying Bicycle",
+      description: "Generated muscle-emphasis teaching diagram for Side-Lying Bicycle.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-side-lying-bicycle.png",
+      imageAlt: "Side-Lying Bicycle teaching diagram with highlighted muscles"
+    }
+  }
 };

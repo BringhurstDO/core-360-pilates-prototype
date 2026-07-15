@@ -52,4 +52,17 @@ export const manualSaw: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the seated seated spinal work block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-saw-teaching",
+      title: "Saw",
+      description: "Generated muscle-emphasis teaching diagram for Saw.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-saw.png",
+      imageAlt: "Saw teaching diagram with highlighted muscles"
+    }
+  }
 };

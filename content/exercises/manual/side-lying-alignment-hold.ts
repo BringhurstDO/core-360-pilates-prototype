@@ -52,4 +52,17 @@ export const manualSideLyingAlignmentHold: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the side-facing side-lying hip / leg work block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-side-lying-alignment-hold-teaching",
+      title: "Side-Lying Alignment Hold",
+      description: "Generated muscle-emphasis teaching diagram for Side-Lying Alignment Hold.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-side-lying-alignment-hold.png",
+      imageAlt: "Side-Lying Alignment Hold teaching diagram with highlighted muscles"
+    }
+  }
 };

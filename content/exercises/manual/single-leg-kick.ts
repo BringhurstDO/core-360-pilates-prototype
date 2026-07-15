@@ -52,4 +52,17 @@ export const manualSingleLegKick: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the prone / extension spinal extension block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-single-leg-kick-teaching",
+      title: "Single Leg Kick",
+      description: "Generated muscle-emphasis teaching diagram for Single Leg Kick.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-single-leg-kick.png",
+      imageAlt: "Single Leg Kick teaching diagram with highlighted muscles"
+    }
+  }
 };

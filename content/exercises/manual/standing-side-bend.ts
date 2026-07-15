@@ -52,4 +52,17 @@ export const manualStandingSideBend: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the standing integration standing integration block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-standing-side-bend-teaching",
+      title: "Standing Side Bend",
+      description: "Generated muscle-emphasis teaching diagram for Standing Side Bend.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-standing-side-bend.png",
+      imageAlt: "Standing Side Bend teaching diagram with highlighted muscles"
+    }
+  }
 };

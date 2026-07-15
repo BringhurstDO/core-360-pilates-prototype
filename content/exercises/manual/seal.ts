@@ -52,4 +52,17 @@ export const manualSeal: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the seated seated spinal work block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-seal-teaching",
+      title: "Seal",
+      description: "Generated muscle-emphasis teaching diagram for Seal.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-seal.png",
+      imageAlt: "Seal teaching diagram with highlighted muscles"
+    }
+  }
 };

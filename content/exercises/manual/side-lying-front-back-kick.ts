@@ -52,4 +52,17 @@ export const manualSideLyingFrontBackKick: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the side-facing side-lying hip / leg work block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-side-lying-front-back-kick-teaching",
+      title: "Side-Lying Front / Back Kick",
+      description: "Generated muscle-emphasis teaching diagram for Side-Lying Front / Back Kick.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-side-lying-front-back-kick.png",
+      imageAlt: "Side-Lying Front / Back Kick teaching diagram with highlighted muscles"
+    }
+  }
 };

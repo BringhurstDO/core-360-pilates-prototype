@@ -52,4 +52,17 @@ export const manualPlankLegLift: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the plank / closed chain planking block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-plank-leg-lift-teaching",
+      title: "Plank Leg Lift",
+      description: "Generated muscle-emphasis teaching diagram for Plank Leg Lift.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-plank-leg-lift.png",
+      imageAlt: "Plank Leg Lift teaching diagram with highlighted muscles"
+    }
+  }
 };

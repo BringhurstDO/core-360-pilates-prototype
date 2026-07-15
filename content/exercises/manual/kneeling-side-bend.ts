@@ -52,4 +52,17 @@ export const manualKneelingSideBend: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the quadruped / kneeling quadruped / kneeling block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-kneeling-side-bend-teaching",
+      title: "Kneeling Side Bend",
+      description: "Generated muscle-emphasis teaching diagram for Kneeling Side Bend.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-kneeling-side-bend.png",
+      imageAlt: "Kneeling Side Bend teaching diagram with highlighted muscles"
+    }
+  }
 };

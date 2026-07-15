@@ -52,4 +52,17 @@ export const manualKneelingPlankPrep: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the quadruped / kneeling quadruped / kneeling block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-kneeling-plank-prep-teaching",
+      title: "Kneeling Plank Prep",
+      description: "Generated muscle-emphasis teaching diagram for Kneeling Plank Prep.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-kneeling-plank-prep.png",
+      imageAlt: "Kneeling Plank Prep teaching diagram with highlighted muscles"
+    }
+  }
 };

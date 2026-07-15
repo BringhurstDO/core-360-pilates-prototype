@@ -52,4 +52,17 @@ export const manualSideBend: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the side-facing lateral flexion block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-side-bend-teaching",
+      title: "Side Bend",
+      description: "Generated muscle-emphasis teaching diagram for Side Bend.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-side-bend.png",
+      imageAlt: "Side Bend teaching diagram with highlighted muscles"
+    }
+  }
 };

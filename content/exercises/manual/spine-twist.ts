@@ -52,4 +52,17 @@ export const manualSpineTwist: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the seated seated spinal work block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-spine-twist-teaching",
+      title: "Spine Twist",
+      description: "Generated muscle-emphasis teaching diagram for Spine Twist.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-spine-twist.png",
+      imageAlt: "Spine Twist teaching diagram with highlighted muscles"
+    }
+  }
 };

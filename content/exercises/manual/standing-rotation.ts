@@ -52,4 +52,17 @@ export const manualStandingRotation: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the standing integration standing integration block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-standing-rotation-teaching",
+      title: "Standing Rotation",
+      description: "Generated muscle-emphasis teaching diagram for Standing Rotation.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-standing-rotation.png",
+      imageAlt: "Standing Rotation teaching diagram with highlighted muscles"
+    }
+  }
 };

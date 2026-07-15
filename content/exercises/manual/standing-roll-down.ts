@@ -52,4 +52,17 @@ export const manualStandingRollDown: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the standing integration standing integration block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-standing-roll-down-teaching",
+      title: "Standing Roll Down",
+      description: "Generated muscle-emphasis teaching diagram for Standing Roll Down.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-standing-roll-down.png",
+      imageAlt: "Standing Roll Down teaching diagram with highlighted muscles"
+    }
+  }
 };

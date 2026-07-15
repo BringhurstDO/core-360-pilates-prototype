@@ -52,4 +52,17 @@ export const manualSideLyingLowerLift: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the side-facing side-lying hip / leg work block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-side-lying-lower-lift-teaching",
+      title: "Side-Lying Lower Lift",
+      description: "Generated muscle-emphasis teaching diagram for Side-Lying Lower Lift.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-side-lying-lower-lift.png",
+      imageAlt: "Side-Lying Lower Lift teaching diagram with highlighted muscles"
+    }
+  }
 };

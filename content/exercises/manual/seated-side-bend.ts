@@ -52,4 +52,17 @@ export const manualSeatedSideBend: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the seated seated spinal work block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-seated-side-bend-teaching",
+      title: "Seated Side Bend",
+      description: "Generated muscle-emphasis teaching diagram for Seated Side Bend.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-seated-side-bend.png",
+      imageAlt: "Seated Side Bend teaching diagram with highlighted muscles"
+    }
+  }
 };

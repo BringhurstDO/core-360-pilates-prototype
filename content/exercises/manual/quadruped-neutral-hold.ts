@@ -52,4 +52,17 @@ export const manualQuadrupedNeutralHold: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the quadruped / kneeling quadruped / kneeling block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-quadruped-neutral-hold-teaching",
+      title: "Quadruped Neutral Hold",
+      description: "Generated muscle-emphasis teaching diagram for Quadruped Neutral Hold.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-quadruped-neutral-hold.png",
+      imageAlt: "Quadruped Neutral Hold teaching diagram with highlighted muscles"
+    }
+  }
 };

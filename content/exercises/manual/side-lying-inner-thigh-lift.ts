@@ -52,4 +52,17 @@ export const manualSideLyingInnerThighLift: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the side-facing side-lying hip / leg work block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-side-lying-inner-thigh-lift-teaching",
+      title: "Side-Lying Inner Thigh Lift",
+      description: "Generated muscle-emphasis teaching diagram for Side-Lying Inner Thigh Lift.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-side-lying-inner-thigh-lift.png",
+      imageAlt: "Side-Lying Inner Thigh Lift teaching diagram with highlighted muscles"
+    }
+  }
 };

@@ -52,4 +52,17 @@ export const manualSideLyingCircles: ExerciseRecord = {
   programming: {
     sequenceNotes: "Manual-source exercise from the side-facing side-lying hip / leg work block."
   }
+,
+  media: {
+    teachingDiagram: {
+      id: "manual-side-lying-circles-teaching",
+      title: "Side-Lying Circles",
+      description: "Generated muscle-emphasis teaching diagram for Side-Lying Circles.",
+      poseNotes: [],
+      annotationLabels: [],
+      kind: "uploaded",
+      imageSrc: "/teaching-diagrams/manual-side-lying-circles.png",
+      imageAlt: "Side-Lying Circles teaching diagram with highlighted muscles"
+    }
+  }
 };
